@@ -1,0 +1,155 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "decimalString": {
+      "maxLength": 41,
+      "pattern": "^(0|[1-9][0-9]{0,39})(\\.[0-9]{1,30})?(?![\\s\\S])",
+      "type": "string"
+    },
+    "positiveDecimalString": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/decimalString"
+        },
+        {
+          "pattern": "[1-9]"
+        }
+      ]
+    },
+    "positiveUnitIntervalDecimalString": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/unitIntervalDecimalString"
+        },
+        {
+          "pattern": "[1-9]"
+        }
+      ]
+    },
+    "rates": {
+      "additionalProperties": false,
+      "properties": {
+        "fixed_cost": {
+          "$ref": "#/$defs/decimalString",
+          "default": "0"
+        },
+        "input_token_rate": {
+          "$ref": "#/$defs/decimalString"
+        },
+        "output_token_rate": {
+          "$ref": "#/$defs/decimalString"
+        }
+      },
+      "required": [
+        "input_token_rate",
+        "output_token_rate"
+      ],
+      "type": "object"
+    },
+    "tier": {
+      "additionalProperties": false,
+      "properties": {
+        "budget_multiplier": {
+          "$ref": "#/$defs/positiveDecimalString"
+        },
+        "weight": {
+          "$ref": "#/$defs/unitIntervalDecimalString"
+        }
+      },
+      "required": [
+        "budget_multiplier",
+        "weight"
+      ],
+      "type": "object"
+    },
+    "unitIntervalDecimalString": {
+      "maxLength": 32,
+      "pattern": "^(0(\\.[0-9]{1,30})?|1(\\.0{1,30})?)(?![\\s\\S])",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "budget_warning_ratio": {
+      "$ref": "#/$defs/positiveUnitIntervalDecimalString",
+      "default": "0.95"
+    },
+    "context_limit_tokens": {
+      "minimum": 1,
+      "type": "integer"
+    },
+    "cost_unit": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "light_model_id": {
+      "enum": [
+        "ax31-light",
+        "ax31",
+        "axk1-think"
+      ]
+    },
+    "models": {
+      "additionalProperties": false,
+      "properties": {
+        "ax31": {
+          "$ref": "#/$defs/rates"
+        },
+        "ax31-light": {
+          "$ref": "#/$defs/rates"
+        },
+        "axk1-think": {
+          "$ref": "#/$defs/rates"
+        }
+      },
+      "required": [
+        "ax31-light",
+        "ax31",
+        "axk1-think"
+      ],
+      "type": "object"
+    },
+    "policy_id": {
+      "const": "ossp-2026-prompt-router-v1"
+    },
+    "schema_version": {
+      "const": 1
+    },
+    "tiers": {
+      "additionalProperties": false,
+      "properties": {
+        "balanced": {
+          "$ref": "#/$defs/tier"
+        },
+        "fast": {
+          "$ref": "#/$defs/tier"
+        },
+        "premium": {
+          "$ref": "#/$defs/tier"
+        }
+      },
+      "required": [
+        "fast",
+        "balanced",
+        "premium"
+      ],
+      "type": "object"
+    },
+    "token_unit": {
+      "const": 1000000,
+      "default": 1000000,
+      "type": "integer"
+    }
+  },
+  "required": [
+    "schema_version",
+    "policy_id",
+    "cost_unit",
+    "context_limit_tokens",
+    "light_model_id",
+    "models",
+    "tiers"
+  ],
+  "title": "OSSP 2026 routing policy v1",
+  "type": "object"
+}

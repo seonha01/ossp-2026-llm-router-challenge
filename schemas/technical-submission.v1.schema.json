@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "challenge_id": {
+      "const": "ossp-2026-llm-router-challenge"
+    },
+    "commit_sha": {
+      "pattern": "^[0-9a-f]{40}(?![\\s\\S])",
+      "type": "string"
+    },
+    "image_digest": {
+      "maxLength": 336,
+      "pattern": "^(?:(?:localhost|[a-z0-9]+(?:[.-][a-z0-9]+)*)(?::[0-9]+)?/)?[a-z0-9]+(?:(?:[._]|__|-+)[a-z0-9]+)*(?:/[a-z0-9]+(?:(?:[._]|__|-+)[a-z0-9]+)*)*@sha256:[0-9a-f]{64}(?![\\s\\S])",
+      "type": "string"
+    },
+    "primary_license": {
+      "enum": [
+        "Apache-2.0",
+        "MIT",
+        "BSD-2-Clause",
+        "BSD-3-Clause",
+        "ISC",
+        "0BSD"
+      ]
+    },
+    "repository_url": {
+      "format": "uri",
+      "maxLength": 2048,
+      "pattern": "^https://[^\\s]+(?![\\s\\S])",
+      "type": "string"
+    },
+    "schema_version": {
+      "const": 1
+    }
+  },
+  "required": [
+    "schema_version",
+    "challenge_id",
+    "repository_url",
+    "commit_sha",
+    "image_digest",
+    "primary_license"
+  ],
+  "description": "Metadata committed at the root of a participant's submitted repository snapshot.",
+  "title": "OSSP 2026 repository submission metadata v1",
+  "type": "object"
+}

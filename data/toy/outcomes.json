@@ -1,0 +1,76 @@
+{
+  "challenge_id": "ossp-2026-llm-router-challenge",
+  "episodes": [
+    {
+      "episode_id": "toy-001",
+      "models": {
+        "ax31": {
+          "input_tokens": 100,
+          "num_generations": 1,
+          "output_tokens": 20,
+          "score": "0.8"
+        },
+        "ax31-light": {
+          "input_tokens": 100,
+          "num_generations": 1,
+          "output_tokens": 20,
+          "score": "0.6"
+        },
+        "axk1-think": {
+          "input_tokens": 100,
+          "num_generations": 1,
+          "output_tokens": 20,
+          "score": "1"
+        }
+      }
+    },
+    {
+      "episode_id": "toy-002",
+      "models": {
+        "ax31": {
+          "input_tokens": 80,
+          "num_generations": 1,
+          "output_tokens": 30,
+          "score": "0.7"
+        },
+        "ax31-light": {
+          "input_tokens": 80,
+          "num_generations": 1,
+          "output_tokens": 30,
+          "score": "0.4"
+        },
+        "axk1-think": {
+          "input_tokens": 80,
+          "num_generations": 1,
+          "output_tokens": 30,
+          "score": "0.9"
+        }
+      }
+    },
+    {
+      "episode_id": "toy-003",
+      "models": {
+        "ax31": {
+          "input_tokens": 120,
+          "num_generations": 1,
+          "output_tokens": 10,
+          "score": "0.6"
+        },
+        "ax31-light": {
+          "input_tokens": 120,
+          "num_generations": 1,
+          "output_tokens": 10,
+          "score": "0.5"
+        },
+        "axk1-think": {
+          "input_tokens": 120,
+          "num_generations": 1,
+          "output_tokens": 10,
+          "score": "0.8"
+        }
+      }
+    }
+  ],
+  "schema_version": 1,
+  "split": "toy"
+}

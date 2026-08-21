@@ -1,0 +1,15 @@
+OSSP 2026 LLM Router Challenge
+Copyright 2026 SK TELECOM CO., LTD.
+
+This product includes software and documentation developed by
+SK TELECOM CO., LTD.
+
+The Apache License 2.0 in the root LICENSE file applies to original project
+material unless a file carries different licensing information. It does not
+relicense third-party benchmark material.
+
+The repository distributes approved public Train/Dev prompt adaptations and
+content-free outcomes. It contains no model generations, model answers, gold
+answers, or AIME problem text. Third-party benchmark material retains its
+upstream license, attribution, modification notice, and distribution terms as
+described in DATA_LICENSES.md and THIRD_PARTY_NOTICES.md.

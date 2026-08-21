@@ -1,0 +1,28 @@
+{
+  "challenge_id": "ossp-2026-llm-router-challenge",
+  "episodes": [
+    {
+      "episode_id": "toy-001",
+      "prompt": "두 정수 17과 25의 합을 계산하세요."
+    },
+    {
+      "episode_id": "toy-002",
+      "messages": [
+        {
+          "content": "문장을 더 간결하게 바꾸는 일을 도와주세요.",
+          "role": "system"
+        },
+        {
+          "content": "회의가 끝난 이후에 결과를 공유하겠습니다.",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "episode_id": "toy-003",
+      "prompt": "빨강, 파랑, 노랑을 알파벳 순서가 아닌 글자 수 순서로 나열하세요."
+    }
+  ],
+  "schema_version": 1,
+  "split": "toy"
+}

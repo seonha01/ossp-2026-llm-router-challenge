@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "challenge_id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "decisions": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "episode_id": {
+            "maxLength": 128,
+            "minLength": 1,
+            "type": "string"
+          },
+          "model_id": {
+            "enum": [
+              "ax31-light",
+              "ax31",
+              "axk1-think"
+            ]
+          }
+        },
+        "required": [
+          "episode_id",
+          "model_id"
+        ],
+        "type": "object"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "policy_id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "schema_version": {
+      "const": 1
+    },
+    "split": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "tier": {
+      "enum": [
+        "fast",
+        "balanced",
+        "premium"
+      ]
+    }
+  },
+  "required": [
+    "schema_version",
+    "challenge_id",
+    "policy_id",
+    "split",
+    "tier",
+    "decisions"
+  ],
+  "title": "OSSP 2026 router submission v1",
+  "type": "object"
+}

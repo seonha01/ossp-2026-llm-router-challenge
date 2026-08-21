@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "policy_id": "ossp-2026-prompt-router-v1",
+  "cost_unit": "credits",
+  "token_unit": 1000000,
+  "context_limit_tokens": 32768,
+  "light_model_id": "ax31-light",
+  "models": {
+    "ax31-light": {
+      "fixed_cost": "0",
+      "input_token_rate": "1",
+      "output_token_rate": "4"
+    },
+    "ax31": {
+      "fixed_cost": "0",
+      "input_token_rate": "2.127",
+      "output_token_rate": "8.509"
+    },
+    "axk1-think": {
+      "fixed_cost": "0",
+      "input_token_rate": "6.565",
+      "output_token_rate": "26.260"
+    }
+  },
+  "tiers": {
+    "fast": {
+      "budget_multiplier": "1.25",
+      "weight": "0.4"
+    },
+    "balanced": {
+      "budget_multiplier": "2.0",
+      "weight": "0.3"
+    },
+    "premium": {
+      "budget_multiplier": "4.0",
+      "weight": "0.3"
+    }
+  },
+  "budget_warning_ratio": "0.95"
+}

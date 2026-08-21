@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "challenge_id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "episodes": {
+      "items": {
+        "additionalProperties": false,
+        "oneOf": [
+          {
+            "required": [
+              "episode_id",
+              "prompt"
+            ]
+          },
+          {
+            "required": [
+              "episode_id",
+              "messages"
+            ]
+          }
+        ],
+        "properties": {
+          "episode_id": {
+            "maxLength": 128,
+            "minLength": 1,
+            "type": "string"
+          },
+          "messages": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "content": {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "role": {
+                  "enum": [
+                    "system",
+                    "user",
+                    "assistant"
+                  ]
+                }
+              },
+              "required": [
+                "role",
+                "content"
+              ],
+              "type": "object"
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "prompt": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "schema_version": {
+      "const": 1
+    },
+    "split": {
+      "minLength": 1,
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "challenge_id",
+    "split",
+    "episodes"
+  ],
+  "title": "OSSP 2026 router input v1",
+  "type": "object"
+}

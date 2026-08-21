@@ -1,0 +1,60 @@
+# SPDX-FileCopyrightText: Copyright 2026 SK TELECOM CO., LTD.
+# SPDX-License-Identifier: Apache-2.0
+
+version = 1
+
+[[annotations]]
+path = "NOTICE"
+precedence = "override"
+SPDX-FileCopyrightText = "Copyright 2026 SK TELECOM CO., LTD."
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = [
+  "baselines/*.json",
+  "configs/*.json",
+  "docs/runtime-benchmark.json",
+  "data/*.json",
+  "data/dev/aime-selection.json",
+  "data/dev/outcomes.json",
+  "data/sources/*.json",
+  "data/toy/*.json",
+  "data/train/aime-selection.json",
+  "data/train/outcomes.json",
+  "schemas/*.json",
+  "src/ossp_router/resources/*.json",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "Copyright 2026 SK TELECOM CO., LTD."
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = [
+  "data/dev/inputs-base.json",
+  "data/train/inputs-base.json",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "Copyright retained by the upstream dataset authors and contributors; see THIRD_PARTY_NOTICES.md"
+SPDX-License-Identifier = "Apache-2.0 AND BSD-3-Clause AND CC-BY-SA-4.0 AND MIT"
+
+# REUSE 6.2 may misdetect the encoding of these Korean-heavy Markdown files.
+[[annotations]]
+path = [
+  "DEVELOPING.md",
+  "README.md",
+  "container/BASE_IMAGE.md",
+  "container/README.md",
+  "data/sources/README.md",
+  "docs/APPLE_SILICON_MEASUREMENT.md",
+  "docs/CHALLENGE_RULES.md",
+  "docs/DATA_CARD.md",
+  "docs/ENFORCEMENT.md",
+  "docs/RUNTIME.md",
+  "docs/REVIEW_GUIDE.md",
+  "docs/SCORING.md",
+  "docs/SUBMISSION.md",
+  "docs/runtime-benchmark.md",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "Copyright 2026 SK TELECOM CO., LTD."
+SPDX-License-Identifier = "Apache-2.0"

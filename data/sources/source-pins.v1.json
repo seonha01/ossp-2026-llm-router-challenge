@@ -1,0 +1,376 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "distribution_mode": "source-fetch-only",
+      "files": [
+        {
+          "path": "test-00000-of-00001.parquet",
+          "sha256": "2602156eb2a0ab64393dc46617a3bfee3451ae3c985a7ea6ac2b55436e094a38"
+        }
+      ],
+      "license": {
+        "declared_spdx": "Apache-2.0",
+        "evidence_path": "README.md",
+        "evidence_sha256": "625ca4bdf12305c131f19a681d4b03a8b9f0bec9927a28a32d058816afae5de6",
+        "evidence_url": "https://huggingface.co/datasets/math-ai/aime24/blob/83a7f387baaa524a8bda0022eac0541582297103/README.md",
+        "review": "dataset declaration verified; underlying problem-text redistribution not presumed"
+      },
+      "repo_id": "math-ai/aime24",
+      "repository_url": "https://huggingface.co/datasets/math-ai/aime24",
+      "revision": "83a7f387baaa524a8bda0022eac0541582297103",
+      "source_id": "aime24-public",
+      "source_type": "huggingface",
+      "transformations": [
+        "read the pinned test Parquet file",
+        "extract the problem and stable source identifier fields needed for public materialization",
+        "never write problem text, solutions, or answers into the repository"
+      ]
+    },
+    {
+      "distribution_mode": "source-fetch-only",
+      "files": [
+        {
+          "path": "test.jsonl",
+          "sha256": "b4e273c02d3e7fe1b74b59eae768fc8230bfb0f79539890cb56f4361caac0331"
+        }
+      ],
+      "license": {
+        "declared_spdx": "Apache-2.0",
+        "evidence_path": "LICENSE",
+        "evidence_sha256": "498cdc89653a01fca77c90c94f5deb526398a1d4c0f8b54f0fdb93827dd011a9",
+        "evidence_url": "https://huggingface.co/datasets/math-ai/aime25/blob/563bb8404243c5f09de6ec262f2db674fe5bce9b/LICENSE",
+        "review": "dataset declaration verified; underlying problem-text redistribution not presumed"
+      },
+      "repo_id": "math-ai/aime25",
+      "repository_url": "https://huggingface.co/datasets/math-ai/aime25",
+      "revision": "563bb8404243c5f09de6ec262f2db674fe5bce9b",
+      "source_id": "aime25-public",
+      "source_type": "huggingface",
+      "transformations": [
+        "read the pinned test JSONL file",
+        "restore JSON-decoded LaTeX form-feed and tab escapes",
+        "never write problem text or answers into the repository"
+      ]
+    },
+    {
+      "distribution_mode": "redistributable-with-attribution-and-share-alike",
+      "files": [
+        {
+          "path": "data/kor_Hang.jsonl",
+          "sha256": "e995f945e9dd7a87ed9c2c727b3fac01cf0e82fa94989cf448266d4f1c136fe2"
+        }
+      ],
+      "license": {
+        "declared_spdx": "CC-BY-SA-4.0",
+        "evidence_path": "README.md",
+        "evidence_sha256": "311c1a2dc30595eb6c7788c0c20548ea00169eef93dc5b0436c7ccdacaf84231",
+        "evidence_url": "https://huggingface.co/datasets/facebook/belebele/blob/7899cdfa4e1e0d733fd77c848e2c273cb1d32be2/README.md",
+        "review": "release requires attribution, change notice, license text, and share-alike compliance"
+      },
+      "repo_id": "facebook/belebele",
+      "repository_url": "https://huggingface.co/datasets/facebook/belebele",
+      "revision": "7899cdfa4e1e0d733fd77c848e2c273cb1d32be2",
+      "source_id": "belebele-korean",
+      "source_type": "huggingface",
+      "transformations": [
+        "read only the kor_Hang test configuration",
+        "map mc_answer1 through mc_answer4 to an ordered choices list"
+      ]
+    },
+    {
+      "distribution_mode": "redistributable",
+      "files": [
+        {
+          "path": "test.jsonl",
+          "sha256": "8368b81047dc5014e4caf5a2f97604eff7644e0ecd7415e3ceeb184bbc2e0c96"
+        }
+      ],
+      "license": {
+        "declared_spdx": "MIT",
+        "evidence_path": "README.md",
+        "evidence_sha256": "23e0189133febcb57ddb527a545d23c11a87ec4eef166bb436f7d55398e4bfd6",
+        "evidence_url": "https://huggingface.co/datasets/cruxeval-org/cruxeval/blob/b96af0450242eb4da433032b90998f25588a5d0f/README.md",
+        "review": "declared license verified; include the applicable MIT notice with released adaptations"
+      },
+      "repo_id": "cruxeval-org/cruxeval",
+      "repository_url": "https://huggingface.co/datasets/cruxeval-org/cruxeval",
+      "revision": "b96af0450242eb4da433032b90998f25588a5d0f",
+      "source_id": "cruxeval",
+      "source_type": "huggingface",
+      "transformations": [
+        "apply the official direct input-prediction or output-prediction prompt",
+        "do not publish reference inputs or outputs"
+      ]
+    },
+    {
+      "distribution_mode": "redistributable",
+      "files": [
+        {
+          "path": "main/test-00000-of-00001.parquet",
+          "sha256": "ee7b8da9e381df27b9e3f7758a159ab2bdaa4dbaa910546cbbc47e0cb44e4f59"
+        }
+      ],
+      "license": {
+        "declared_spdx": "MIT",
+        "evidence_path": "README.md",
+        "evidence_sha256": "a17e882503578c9e324560630e31017617714ee025c87cf4fea6fd916895f3c1",
+        "evidence_url": "https://huggingface.co/datasets/openai/gsm8k/blob/740312add88f781978c0658806c59bc2815b9866/README.md",
+        "review": "declared license verified; include the applicable MIT notice with released adaptations"
+      },
+      "repo_id": "openai/gsm8k",
+      "repository_url": "https://huggingface.co/datasets/openai/gsm8k",
+      "revision": "740312add88f781978c0658806c59bc2815b9866",
+      "source_id": "gsm8k-main-test",
+      "source_type": "huggingface",
+      "transformations": [
+        "read the pinned main test Parquet file",
+        "read the question field needed for public prompt materialization",
+        "do not publish answers"
+      ]
+    },
+    {
+      "distribution_mode": "redistributable",
+      "files": [
+        {
+          "path": "HRMCR-DATE.csv",
+          "sha256": "bff0139ce965ce1a3d758c5224d88b90d107869df8dd14ba53623260c063720d"
+        },
+        {
+          "path": "HRMCR-ZODIAC.csv",
+          "sha256": "a7eae7a0a1d788f539fed8f42dc8b4f9fd358f5e8f7319e712ced77604802f36"
+        }
+      ],
+      "license": {
+        "declared_spdx": "Apache-2.0",
+        "evidence_path": "README.md",
+        "evidence_sha256": "188d80db2c3f928b6d7a5cd9e52fbd8e070c39cde0c3060cb17fa3f3827f8d82",
+        "evidence_url": "https://huggingface.co/datasets/HAERAE-HUB/HRMCR/blob/f756e38f7728b8a82ec8faa8ff83e1d2b9bda3eb/README.md",
+        "review": "declared license verified"
+      },
+      "repo_id": "HAERAE-HUB/HRMCR",
+      "repository_url": "https://huggingface.co/datasets/HAERAE-HUB/HRMCR",
+      "revision": "f756e38f7728b8a82ec8faa8ff83e1d2b9bda3eb",
+      "source_id": "hrmcr",
+      "source_type": "huggingface",
+      "transformations": [
+        "preserve source row order while materializing the public prompt selection",
+        "do not publish answers or solutions"
+      ]
+    },
+    {
+      "distribution_mode": "redistributable",
+      "files": [
+        {
+          "path": "data/test-00000-of-00001-402c217dbcd02599.parquet",
+          "sha256": "51dd62b07c199ba82870345e6c872eb0314770fbb0efbf30a632a1edbbbf3ffd"
+        }
+      ],
+      "license": {
+        "declared_spdx": "Apache-2.0",
+        "evidence_path": "README.md",
+        "evidence_sha256": "d811ee99da83516a0a79bce5989d6c27a2b1b9b6f4e3bd2b96f8de069b32f993",
+        "evidence_url": "https://huggingface.co/datasets/tasksource/ruletaker/blob/a3e0880baeb6ec3d478f4c4d85afe04b21b6cf7f/README.md",
+        "review": "declared license verified"
+      },
+      "repo_id": "tasksource/ruletaker",
+      "repository_url": "https://huggingface.co/datasets/tasksource/ruletaker",
+      "revision": "a3e0880baeb6ec3d478f4c4d85afe04b21b6cf7f",
+      "source_id": "ruletaker",
+      "source_type": "huggingface",
+      "transformations": [
+        "select only the approved synthetic depth configurations",
+        "exclude the overlapping depth-3ext configuration",
+        "do not publish labels"
+      ]
+    },
+    {
+      "distribution_mode": "redistributable",
+      "files": [
+        {
+          "path": "TruthfulQA.csv",
+          "sha256": "b8d8ef1e12f98b4f2a9f47abc9765da0640b182b6c5d9b92f0c1a1f2f1e02e5c",
+          "url": "https://raw.githubusercontent.com/sylinrl/TruthfulQA/d71c110897f5d31c5d7f309e7bc316c152f6f031/TruthfulQA.csv"
+        }
+      ],
+      "license": {
+        "declared_spdx": "Apache-2.0",
+        "evidence_path": "LICENSE",
+        "evidence_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "evidence_url": "https://github.com/sylinrl/TruthfulQA/blob/d71c110897f5d31c5d7f309e7bc316c152f6f031/LICENSE",
+        "review": "license file verified"
+      },
+      "repository_url": "https://github.com/sylinrl/TruthfulQA",
+      "revision": "d71c110897f5d31c5d7f309e7bc316c152f6f031",
+      "source_id": "truthfulqa-binary",
+      "source_type": "remote-file",
+      "transformations": [
+        "use the question and deterministically shuffled binary choices",
+        "do not publish the answer labels or answer columns"
+      ]
+    },
+    {
+      "distribution_mode": "redistributable-with-notices",
+      "files": [
+        {
+          "path": "data/qa1/4k.json",
+          "sha256": "95dc878018194d3ff9f3d576f36768d302a48e1e7e012bdc13c163bc31ee3a30"
+        },
+        {
+          "path": "data/qa2/4k.json",
+          "sha256": "420fc8e4a52d39b7bfeb4e44d7782c5f0ae7ba10144c00485f0bb332f4ceaced"
+        },
+        {
+          "path": "data/qa3/4k.json",
+          "sha256": "6cca199e011107f26b31a6f4af9dfab1b3b81c1ff8da4d4271e3a9c67c7d8fad"
+        },
+        {
+          "path": "data/qa4/4k.json",
+          "sha256": "d005166fdcc45399d29ff286e21cfd60150138519c5c11c301c11d12ec1e5fe4"
+        },
+        {
+          "path": "data/qa5/4k.json",
+          "sha256": "e98731f7d395918cfcbb69af049ae563038726c38e0be7f2e350529c40b8a525"
+        },
+        {
+          "path": "data/qa6/4k.json",
+          "sha256": "fa2ebbd9ee4ee795f544dd68535832e54e2291b803a5e4bad371b6b5d6715f9f"
+        },
+        {
+          "path": "data/qa7/4k.json",
+          "sha256": "f96b5ff6d72b2b6d5699075c46785dc267be1715026ee769f4a738facd4aa2c3"
+        },
+        {
+          "path": "data/qa8/4k.json",
+          "sha256": "ee87a0db7aa22c7770bec0ab40177402e464c09403e3174c1a8b8c76eaf3e8c7"
+        },
+        {
+          "path": "data/qa9/4k.json",
+          "sha256": "476632adc3ab469350fd21fcede0a50307d9983e42c6e76d44c3a0da062d1013"
+        },
+        {
+          "path": "data/qa10/4k.json",
+          "sha256": "54d3cbaca8a3fb7b4e7a5c91185fa600322090ab828a0ae50a0efd52ee1a6db1"
+        },
+        {
+          "path": "data/qa1/16k.json",
+          "sha256": "2687478021246215c84060fa7d1f2be0b7058a09d774c169d9d75a56fd6994c0"
+        },
+        {
+          "path": "data/qa2/16k.json",
+          "sha256": "bc99807d8a5cf507ca92bd1c3c9c2cb2b7c365b26605b8de7c643c5791cd1b93"
+        },
+        {
+          "path": "data/qa3/16k.json",
+          "sha256": "e4f6419ec34548137e94e6851540b7c3f504ea86aef6017a4dce7591f9ed957f"
+        },
+        {
+          "path": "data/qa4/16k.json",
+          "sha256": "7d778fc51a7718fb1e1bfd6c7ce4fb789582d524e9937a7c2c0bb32689bcd4f4"
+        },
+        {
+          "path": "data/qa5/16k.json",
+          "sha256": "ebe2b3b7500cb25e623caa664db42f1216f9d59633b2d876b91f2c92e374b96f"
+        },
+        {
+          "path": "data/qa6/16k.json",
+          "sha256": "0bb6917dcaa7d010d2455569dc513808d6fbf887dbdcb5647ddfe02ec22ca601"
+        },
+        {
+          "path": "data/qa7/16k.json",
+          "sha256": "bb08c06bbd1dbbd7d946ae46dea36b6e2f0804d9d6031b8b5c40820e9a6859e9"
+        },
+        {
+          "path": "data/qa8/16k.json",
+          "sha256": "2e13cb21f82f90b686adb3b417dd4474ff784a9f5e1b22ca1d653d7822d0dae6"
+        },
+        {
+          "path": "data/qa9/16k.json",
+          "sha256": "6c85e7fa8dc14fb8e8d23a7b255c201c3142a7c2faab144c20654f52aa38d9ab"
+        },
+        {
+          "path": "data/qa10/16k.json",
+          "sha256": "33627689622d5ea15ab790c1b0244fdfa0cca75275cbcbfe6b8fa81cb9618ecb"
+        }
+      ],
+      "license": {
+        "component_evidence": [
+          {
+            "declared_spdx": "BSD-3-Clause",
+            "evidence_path": "LICENSE.md",
+            "evidence_sha256": "e1001aeb5356260c3ed9b4fc0c658c8a608816d97e4cae0b01b8edf0755db1dc",
+            "evidence_url": "https://github.com/facebookarchive/bAbI-tasks/blob/ccd8fd6af76d35346109e7bb5f7de9138d055e01/LICENSE.md",
+            "repository_url": "https://github.com/facebookarchive/bAbI-tasks",
+            "revision": "ccd8fd6af76d35346109e7bb5f7de9138d055e01"
+          },
+          {
+            "declared_spdx": "Apache-2.0",
+            "evidence_path": "LICENSE",
+            "evidence_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+            "evidence_url": "https://github.com/google-deepmind/pg19/blob/b0e1f2925359688af19f8784c23c3deeda52d3ea/LICENSE",
+            "repository_url": "https://github.com/google-deepmind/pg19",
+            "revision": "b0e1f2925359688af19f8784c23c3deeda52d3ea"
+          },
+          {
+            "declared_spdx": "Apache-2.0",
+            "evidence_path": "LICENSE",
+            "evidence_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+            "evidence_url": "https://github.com/booydar/babilong/blob/7a6efee29f5cac03c3c410e6799c80fd2ffe3610/LICENSE",
+            "repository_url": "https://github.com/booydar/babilong",
+            "revision": "7a6efee29f5cac03c3c410e6799c80fd2ffe3610"
+          }
+        ],
+        "declared_spdx": "Apache-2.0 AND BSD-3-Clause",
+        "evidence_path": "README.md",
+        "evidence_sha256": "2799cd5e44a416863f5fc072e4e51d3435f435c8f8ea0b6a79c7de7584469f23",
+        "evidence_url": "https://huggingface.co/datasets/RMT-team/babilong/blob/ee0d588794c7ac098062ee0d247c733d62e94fe2/README.md",
+        "review": "component license files pinned; release must retain the Apache-2.0 and bAbI BSD-3-Clause notices"
+      },
+      "repo_id": "RMT-team/babilong",
+      "repository_url": "https://huggingface.co/datasets/RMT-team/babilong",
+      "revision": "ee0d588794c7ac098062ee0d247c733d62e94fe2",
+      "source_id": "babilong-4k-16k",
+      "source_type": "huggingface",
+      "transformations": [
+        "use only qa1 through qa10 from the 4k and 16k configurations",
+        "apply a zero-shot task instruction adapted from the official prompt",
+        "do not publish targets"
+      ]
+    },
+    {
+      "distribution_mode": "reproduce-from-pinned-generator",
+      "license": {
+        "declared_spdx": "Apache-2.0",
+        "evidence_path": "LICENSE",
+        "evidence_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "evidence_url": "https://github.com/google-deepmind/mathematics_dataset/blob/427f45075f84b8b9774950196ad63867ca20ffb3/LICENSE",
+        "review": "license file and independent deterministic reproduction recipe verified"
+      },
+      "public_selection": "deepmind-mathematics-selection.v1.json",
+      "public_selection_sha256": "9789e4a578c4c0944221cef1feb1155a5d66b9e1dcd6d9d6bab6be7e3eef4224",
+      "recipe": "../../tools/reproduce_deepmind_mathematics.py",
+      "reference_sha256": {
+        "extrapolate": "d5c4b497f5472e23dbdff369f30d6e4c608a3ea997a2b387d375c6759b92b75a",
+        "interpolate": "ede42cb2ae748e4929d216a8807eb4676bfce8a53d9343eba7c7d73964766408"
+      },
+      "repository_url": "https://github.com/google-deepmind/mathematics_dataset",
+      "revision": "427f45075f84b8b9774950196ad63867ca20ffb3",
+      "source_id": "deepmind-mathematics",
+      "source_type": "generator",
+      "transformations": [
+        "apply deterministic NumPy 2 ndarray.itemset compatibility without modifying the upstream checkout",
+        "normalize integer-valued random.randint bounds for Python 3.12 compatibility",
+        "sort symbol candidates and preserve entity insertion order before seeded shuffling",
+        "apply the official question and answer length limits within each seeded generation attempt",
+        "sample sorted modules round-robin and reject duplicate questions"
+      ],
+      "validated_environment": {
+        "absl-py": "2.5.0",
+        "numpy": "2.4.6",
+        "python": "3.12.13",
+        "six": "1.17.0",
+        "sympy": "1.14.0"
+      }
+    }
+  ]
+}

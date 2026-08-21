@@ -1,0 +1,32 @@
+{
+  "challenge_id": "ossp-2026-llm-router-challenge",
+  "schema_version": 1,
+  "splits": {
+    "dev": {
+      "counts": {
+        "redistributable_inputs": 868,
+        "source_fetch_inputs": 12,
+        "total_inputs": 880
+      },
+      "sha256": {
+        "inputs_base": "f8fee2d272fd4ce383a38986fa5213f221a205d725c3e9202c7aa84800915b25",
+        "materialized_inputs": "5920f9ea9e3da147aa546659054feb08afb7e11a0e4db6967b293ff79b759abc",
+        "outcomes": "acb7c5ed522c4e1b65e9ab14b3fe9458fcba32eb3d9de8d3f53e24b8904d2e66",
+        "source_fetch_selection": "4a73c7428e0d795df2e2b71cc2d267158e9ab52f070a5b0013aca7f62d46f859"
+      }
+    },
+    "train": {
+      "counts": {
+        "redistributable_inputs": 1736,
+        "source_fetch_inputs": 24,
+        "total_inputs": 1760
+      },
+      "sha256": {
+        "inputs_base": "71abfb65bcdaa2bae14c1a405cfa3e218f53a79294b97b1dba106aeaab528613",
+        "materialized_inputs": "029a0fb1f70432a05b837a1291d86d42278bb202d808a6a12911b0dae8628ac4",
+        "outcomes": "97a5a787086b3e1d9fa9c7945518543540e527ea248df4a4760de581b612a4ba",
+        "source_fetch_selection": "97a9b0c9fd55b0faf18d11aedb5071d25d3dc4ab206425d6cdc9881f69ceb3c3"
+      }
+    }
+  }
+}

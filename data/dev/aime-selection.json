@@ -1,0 +1,114 @@
+{
+  "episodes": [
+    {
+      "episode_id": "dev-0008",
+      "prompt_sha256": "fe9269c9188b94f6e987a4aab767b41131fc4efb12c3bf074e8aa2aa869bb6dc",
+      "source_id": "aime25-public",
+      "source_key": {
+        "source_id": "29",
+        "year": 2025
+      }
+    },
+    {
+      "episode_id": "dev-0031",
+      "prompt_sha256": "4ac3065bc26a845b46441d6ac16384a62e01f9a7c595720272bbc0b316201e6d",
+      "source_id": "aime24-public",
+      "source_key": {
+        "source_id": "83",
+        "year": 2024
+      }
+    },
+    {
+      "episode_id": "dev-0059",
+      "prompt_sha256": "d7b202873c9ff78edfbcd97652c0093c68f53f7582c9b20614780fe7288a87a7",
+      "source_id": "aime24-public",
+      "source_key": {
+        "source_id": "73",
+        "year": 2024
+      }
+    },
+    {
+      "episode_id": "dev-0140",
+      "prompt_sha256": "5650d2a0767a53a577e51aab7a9b3cafb4f91562ad2544bb088c6cfc577cf364",
+      "source_id": "aime24-public",
+      "source_key": {
+        "source_id": "70",
+        "year": 2024
+      }
+    },
+    {
+      "episode_id": "dev-0149",
+      "prompt_sha256": "3c4b599aa92bcd8347ba4bbf4a1bf1fc265c43dd6cc93810df56af814fc2a619",
+      "source_id": "aime24-public",
+      "source_key": {
+        "source_id": "88",
+        "year": 2024
+      }
+    },
+    {
+      "episode_id": "dev-0240",
+      "prompt_sha256": "e5391454ee1ae2dba04ebe27493b09e17d0681305dea39eab9ef7da22434c818",
+      "source_id": "aime25-public",
+      "source_key": {
+        "source_id": "6",
+        "year": 2025
+      }
+    },
+    {
+      "episode_id": "dev-0245",
+      "prompt_sha256": "8b3f54a5a59cea67444c9987db3379cf1aef6a6bfa798cf3decad60c75eb4162",
+      "source_id": "aime25-public",
+      "source_key": {
+        "source_id": "10",
+        "year": 2025
+      }
+    },
+    {
+      "episode_id": "dev-0394",
+      "prompt_sha256": "2cd37e1f687bea192117e151ee4db04b180e5b9d1d350ec9c7ca8e77f544e558",
+      "source_id": "aime25-public",
+      "source_key": {
+        "source_id": "13",
+        "year": 2025
+      }
+    },
+    {
+      "episode_id": "dev-0420",
+      "prompt_sha256": "f785f38899d11791997f4c396dcf950e2979673d372c77988fd0379684b00927",
+      "source_id": "aime24-public",
+      "source_key": {
+        "source_id": "84",
+        "year": 2024
+      }
+    },
+    {
+      "episode_id": "dev-0421",
+      "prompt_sha256": "4827451ee78b173fce0a2b248a10c01442ec7346d87aba46c59a0ad1218f71ed",
+      "source_id": "aime24-public",
+      "source_key": {
+        "source_id": "64",
+        "year": 2024
+      }
+    },
+    {
+      "episode_id": "dev-0422",
+      "prompt_sha256": "579722c4119a4e3d6b6a31dfe1ef2e746a3af3121566a287e1a2565abf5edf9f",
+      "source_id": "aime25-public",
+      "source_key": {
+        "source_id": "21",
+        "year": 2025
+      }
+    },
+    {
+      "episode_id": "dev-0423",
+      "prompt_sha256": "f53a9f5b67d503452b61424686c5a7dd5b6807987734675bedea0793db93330b",
+      "source_id": "aime25-public",
+      "source_key": {
+        "source_id": "18",
+        "year": 2025
+      }
+    }
+  ],
+  "schema_version": 1,
+  "split": "dev"
+}

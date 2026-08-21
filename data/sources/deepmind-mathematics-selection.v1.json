@@ -1,0 +1,1838 @@
+{
+  "reference_sha256": {
+    "extrapolate": "d5c4b497f5472e23dbdff369f30d6e4c608a3ea997a2b387d375c6759b92b75a",
+    "interpolate": "ede42cb2ae748e4929d216a8807eb4676bfce8a53d9343eba7c7d73964766408"
+  },
+  "schema_version": 1,
+  "source_id": "deepmind-mathematics",
+  "splits": {
+    "dev": [
+      {
+        "episode_id": "dev-0001",
+        "sample_id": "interpolate:calculus__differentiate_composed:4:d897393a"
+      },
+      {
+        "episode_id": "dev-0009",
+        "sample_id": "extrapolate:arithmetic__mul_big:5:e9b6ce66"
+      },
+      {
+        "episode_id": "dev-0010",
+        "sample_id": "extrapolate:comparison__kth_biggest_more:18:8f79e366"
+      },
+      {
+        "episode_id": "dev-0012",
+        "sample_id": "extrapolate:numbers__round_number_big:37:c3b3cd2b"
+      },
+      {
+        "episode_id": "dev-0013",
+        "sample_id": "interpolate:calculus__differentiate:8:9f53670e"
+      },
+      {
+        "episode_id": "dev-0024",
+        "sample_id": "interpolate:numbers__list_prime_factors:5:6bec12af"
+      },
+      {
+        "episode_id": "dev-0056",
+        "sample_id": "extrapolate:arithmetic__mixed_longer:4:84388be9"
+      },
+      {
+        "episode_id": "dev-0064",
+        "sample_id": "extrapolate:arithmetic__mul_big:50:b2fac25f"
+      },
+      {
+        "episode_id": "dev-0067",
+        "sample_id": "interpolate:polynomials__add:3:900f86ba"
+      },
+      {
+        "episode_id": "dev-0072",
+        "sample_id": "interpolate:numbers__round_number:15:15904e4c"
+      },
+      {
+        "episode_id": "dev-0075",
+        "sample_id": "extrapolate:probability__swr_p_sequence_more_samples:3:91e82f25"
+      },
+      {
+        "episode_id": "dev-0080",
+        "sample_id": "extrapolate:arithmetic__div_big:31:99bd71ef"
+      },
+      {
+        "episode_id": "dev-0089",
+        "sample_id": "interpolate:numbers__is_factor:15:b374ca2b"
+      },
+      {
+        "episode_id": "dev-0097",
+        "sample_id": "interpolate:measurement__time:4:c36a2ba0"
+      },
+      {
+        "episode_id": "dev-0101",
+        "sample_id": "interpolate:polynomials__evaluate:12:34776609"
+      },
+      {
+        "episode_id": "dev-0109",
+        "sample_id": "extrapolate:arithmetic__mul_big:11:8f5f2653"
+      },
+      {
+        "episode_id": "dev-0120",
+        "sample_id": "interpolate:probability__swr_p_level_set:13:5ae493a7"
+      },
+      {
+        "episode_id": "dev-0123",
+        "sample_id": "interpolate:polynomials__collect:1:6784866e"
+      },
+      {
+        "episode_id": "dev-0126",
+        "sample_id": "interpolate:algebra__linear_2d:6:5fed76ec"
+      },
+      {
+        "episode_id": "dev-0128",
+        "sample_id": "interpolate:numbers__base_conversion:14:d2086029"
+      },
+      {
+        "episode_id": "dev-0132",
+        "sample_id": "extrapolate:arithmetic__add_or_sub_big:32:80c480b6"
+      },
+      {
+        "episode_id": "dev-0133",
+        "sample_id": "interpolate:numbers__list_prime_factors:6:16027963"
+      },
+      {
+        "episode_id": "dev-0145",
+        "sample_id": "interpolate:arithmetic__mixed:10:8de7aaeb"
+      },
+      {
+        "episode_id": "dev-0147",
+        "sample_id": "interpolate:numbers__is_factor:10:3a522c21"
+      },
+      {
+        "episode_id": "dev-0151",
+        "sample_id": "extrapolate:comparison__closest_more:42:a35af201"
+      },
+      {
+        "episode_id": "dev-0152",
+        "sample_id": "extrapolate:arithmetic__div_big:47:bdcf2c32"
+      },
+      {
+        "episode_id": "dev-0153",
+        "sample_id": "extrapolate:measurement__conversion:20:ef0e6ea7"
+      },
+      {
+        "episode_id": "dev-0155",
+        "sample_id": "interpolate:numbers__place_value:12:3d721f4a"
+      },
+      {
+        "episode_id": "dev-0156",
+        "sample_id": "extrapolate:arithmetic__div_big:43:fcc6b131"
+      },
+      {
+        "episode_id": "dev-0161",
+        "sample_id": "interpolate:polynomials__coefficient_named:12:9650d9d0"
+      },
+      {
+        "episode_id": "dev-0166",
+        "sample_id": "interpolate:numbers__place_value_composed:3:909e430f"
+      },
+      {
+        "episode_id": "dev-0171",
+        "sample_id": "interpolate:arithmetic__add_or_sub:2:6f981452"
+      },
+      {
+        "episode_id": "dev-0181",
+        "sample_id": "interpolate:numbers__gcd:2:2d116d7d"
+      },
+      {
+        "episode_id": "dev-0195",
+        "sample_id": "interpolate:numbers__lcm_composed:15:d6e20dd4"
+      },
+      {
+        "episode_id": "dev-0200",
+        "sample_id": "extrapolate:probability__swr_p_level_set_more_samples:26:405a2f90"
+      },
+      {
+        "episode_id": "dev-0204",
+        "sample_id": "extrapolate:comparison__closest_more:31:649d945b"
+      },
+      {
+        "episode_id": "dev-0207",
+        "sample_id": "interpolate:numbers__list_prime_factors_composed:2:c5bc8cc3"
+      },
+      {
+        "episode_id": "dev-0210",
+        "sample_id": "interpolate:polynomials__collect:0:a7ce66b8"
+      },
+      {
+        "episode_id": "dev-0215",
+        "sample_id": "interpolate:measurement__time:10:66a9c70d"
+      },
+      {
+        "episode_id": "dev-0234",
+        "sample_id": "interpolate:arithmetic__div:12:e2747275"
+      },
+      {
+        "episode_id": "dev-0236",
+        "sample_id": "interpolate:comparison__pair:10:207ebf8e"
+      },
+      {
+        "episode_id": "dev-0249",
+        "sample_id": "interpolate:numbers__list_prime_factors_composed:13:8d2e389d"
+      },
+      {
+        "episode_id": "dev-0253",
+        "sample_id": "extrapolate:comparison__closest_more:33:df758b22"
+      },
+      {
+        "episode_id": "dev-0260",
+        "sample_id": "interpolate:measurement__conversion:9:864791de"
+      },
+      {
+        "episode_id": "dev-0265",
+        "sample_id": "extrapolate:arithmetic__add_sub_multiple_longer:30:3cc0d104"
+      },
+      {
+        "episode_id": "dev-0267",
+        "sample_id": "extrapolate:numbers__round_number_big:30:a59ede5a"
+      },
+      {
+        "episode_id": "dev-0269",
+        "sample_id": "extrapolate:probability__swr_p_sequence_more_samples:36:b5ea515c"
+      },
+      {
+        "episode_id": "dev-0275",
+        "sample_id": "interpolate:numbers__round_number:12:6fd57374"
+      },
+      {
+        "episode_id": "dev-0296",
+        "sample_id": "interpolate:polynomials__evaluate_composed:6:bdec9f5e"
+      },
+      {
+        "episode_id": "dev-0298",
+        "sample_id": "extrapolate:comparison__sort_more:59:edb8fbbb"
+      },
+      {
+        "episode_id": "dev-0299",
+        "sample_id": "extrapolate:arithmetic__mixed_longer:48:7469fe45"
+      },
+      {
+        "episode_id": "dev-0301",
+        "sample_id": "extrapolate:comparison__kth_biggest_more:33:a39fab25"
+      },
+      {
+        "episode_id": "dev-0304",
+        "sample_id": "extrapolate:measurement__conversion:10:180b0f49"
+      },
+      {
+        "episode_id": "dev-0305",
+        "sample_id": "interpolate:numbers__is_factor:6:e8055984"
+      },
+      {
+        "episode_id": "dev-0307",
+        "sample_id": "extrapolate:probability__swr_p_level_set_more_samples:5:bf57ef56"
+      },
+      {
+        "episode_id": "dev-0315",
+        "sample_id": "interpolate:numbers__is_prime_composed:14:990d5291"
+      },
+      {
+        "episode_id": "dev-0319",
+        "sample_id": "interpolate:numbers__round_number_composed:8:b2e11f86"
+      },
+      {
+        "episode_id": "dev-0324",
+        "sample_id": "interpolate:comparison__pair:12:6f358f6c"
+      },
+      {
+        "episode_id": "dev-0329",
+        "sample_id": "interpolate:arithmetic__div:15:631d832c"
+      },
+      {
+        "episode_id": "dev-0334",
+        "sample_id": "interpolate:arithmetic__mixed:8:b55b0e8c"
+      },
+      {
+        "episode_id": "dev-0338",
+        "sample_id": "interpolate:polynomials__simplify_power:1:afc3d8b2"
+      },
+      {
+        "episode_id": "dev-0342",
+        "sample_id": "interpolate:probability__swr_p_level_set:5:5f86879e"
+      },
+      {
+        "episode_id": "dev-0345",
+        "sample_id": "interpolate:numbers__lcm_composed:6:83f6eeda"
+      },
+      {
+        "episode_id": "dev-0350",
+        "sample_id": "extrapolate:numbers__place_value_big:36:f84639ed"
+      },
+      {
+        "episode_id": "dev-0358",
+        "sample_id": "extrapolate:probability__swr_p_level_set_more_samples:14:edc80831"
+      },
+      {
+        "episode_id": "dev-0360",
+        "sample_id": "extrapolate:measurement__conversion:44:f3b2ad6b"
+      },
+      {
+        "episode_id": "dev-0372",
+        "sample_id": "interpolate:numbers__place_value_composed:13:a5ab00d5"
+      },
+      {
+        "episode_id": "dev-0377",
+        "sample_id": "interpolate:arithmetic__add_sub_multiple:0:db812b5e"
+      },
+      {
+        "episode_id": "dev-0382",
+        "sample_id": "extrapolate:algebra__polynomial_roots_big:44:fd95ef13"
+      },
+      {
+        "episode_id": "dev-0384",
+        "sample_id": "interpolate:algebra__linear_2d_composed:4:32461703"
+      },
+      {
+        "episode_id": "dev-0390",
+        "sample_id": "interpolate:arithmetic__simplify_surd:3:2fcee38e"
+      },
+      {
+        "episode_id": "dev-0400",
+        "sample_id": "interpolate:algebra__linear_1d_composed:10:a8edf4d4"
+      },
+      {
+        "episode_id": "dev-0413",
+        "sample_id": "extrapolate:arithmetic__mul_big:17:c45a6be6"
+      },
+      {
+        "episode_id": "dev-0414",
+        "sample_id": "extrapolate:comparison__sort_more:0:c1b32e06"
+      },
+      {
+        "episode_id": "dev-0416",
+        "sample_id": "interpolate:comparison__kth_biggest_composed:10:8ab7226b"
+      },
+      {
+        "episode_id": "dev-0624",
+        "sample_id": "interpolate:comparison__sort_composed:0:3550eb8f"
+      },
+      {
+        "episode_id": "dev-0625",
+        "sample_id": "interpolate:probability__swr_p_sequence:11:573f3427"
+      },
+      {
+        "episode_id": "dev-0626",
+        "sample_id": "interpolate:numbers__place_value:1:fdde4aa0"
+      },
+      {
+        "episode_id": "dev-0627",
+        "sample_id": "interpolate:calculus__differentiate_composed:6:c1b1aab4"
+      },
+      {
+        "episode_id": "dev-0628",
+        "sample_id": "interpolate:algebra__sequence_nth_term:8:02175948"
+      },
+      {
+        "episode_id": "dev-0629",
+        "sample_id": "interpolate:arithmetic__add_sub_multiple:3:9723745c"
+      },
+      {
+        "episode_id": "dev-0630",
+        "sample_id": "interpolate:arithmetic__mul_div_multiple:4:a81bb18e"
+      },
+      {
+        "episode_id": "dev-0631",
+        "sample_id": "interpolate:numbers__place_value:5:643ede32"
+      },
+      {
+        "episode_id": "dev-0632",
+        "sample_id": "interpolate:comparison__kth_biggest:8:a9f7bf82"
+      },
+      {
+        "episode_id": "dev-0633",
+        "sample_id": "interpolate:algebra__sequence_next_term:8:64b0822b"
+      },
+      {
+        "episode_id": "dev-0634",
+        "sample_id": "interpolate:probability__swr_p_level_set:1:0fe0a074"
+      },
+      {
+        "episode_id": "dev-0635",
+        "sample_id": "interpolate:numbers__is_factor:13:2ebb272d"
+      },
+      {
+        "episode_id": "dev-0636",
+        "sample_id": "interpolate:polynomials__add:12:21c6351a"
+      },
+      {
+        "episode_id": "dev-0637",
+        "sample_id": "interpolate:arithmetic__add_or_sub_in_base:2:6127ee81"
+      },
+      {
+        "episode_id": "dev-0638",
+        "sample_id": "interpolate:numbers__place_value:7:3897f9d1"
+      },
+      {
+        "episode_id": "dev-0639",
+        "sample_id": "interpolate:calculus__differentiate:15:9e01ed81"
+      },
+      {
+        "episode_id": "dev-0640",
+        "sample_id": "interpolate:arithmetic__mul_div_multiple:8:cc945a39"
+      },
+      {
+        "episode_id": "dev-0641",
+        "sample_id": "interpolate:algebra__linear_1d_composed:1:c93b0ab4"
+      },
+      {
+        "episode_id": "dev-0642",
+        "sample_id": "interpolate:comparison__closest_composed:9:afa407bf"
+      },
+      {
+        "episode_id": "dev-0643",
+        "sample_id": "interpolate:polynomials__expand:7:860ce227"
+      },
+      {
+        "episode_id": "dev-0644",
+        "sample_id": "interpolate:arithmetic__mixed:12:7aa279ea"
+      },
+      {
+        "episode_id": "dev-0645",
+        "sample_id": "interpolate:polynomials__evaluate_composed:2:862ed7b3"
+      },
+      {
+        "episode_id": "dev-0646",
+        "sample_id": "interpolate:numbers__round_number_composed:11:38e11372"
+      },
+      {
+        "episode_id": "dev-0647",
+        "sample_id": "interpolate:numbers__lcm:12:0fbe3ed1"
+      },
+      {
+        "episode_id": "dev-0648",
+        "sample_id": "interpolate:numbers__div_remainder:8:2301698b"
+      },
+      {
+        "episode_id": "dev-0649",
+        "sample_id": "interpolate:comparison__closest:13:dec4fb02"
+      },
+      {
+        "episode_id": "dev-0650",
+        "sample_id": "interpolate:numbers__place_value_composed:2:e0fb1eb3"
+      },
+      {
+        "episode_id": "dev-0651",
+        "sample_id": "interpolate:algebra__polynomial_roots:6:87d3464d"
+      },
+      {
+        "episode_id": "dev-0652",
+        "sample_id": "interpolate:numbers__list_prime_factors:12:cdab2e29"
+      },
+      {
+        "episode_id": "dev-0653",
+        "sample_id": "interpolate:comparison__pair_composed:14:214fb901"
+      },
+      {
+        "episode_id": "dev-0654",
+        "sample_id": "interpolate:numbers__div_remainder_composed:12:958cdfdf"
+      },
+      {
+        "episode_id": "dev-0655",
+        "sample_id": "interpolate:comparison__sort:14:d4364e0b"
+      },
+      {
+        "episode_id": "dev-0656",
+        "sample_id": "interpolate:numbers__lcm:5:0a41d703"
+      },
+      {
+        "episode_id": "dev-0657",
+        "sample_id": "interpolate:polynomials__coefficient_named:1:ab86160f"
+      },
+      {
+        "episode_id": "dev-0658",
+        "sample_id": "interpolate:polynomials__compose:15:33cad08b"
+      },
+      {
+        "episode_id": "dev-0659",
+        "sample_id": "interpolate:polynomials__evaluate:8:647e8d9a"
+      },
+      {
+        "episode_id": "dev-0660",
+        "sample_id": "interpolate:polynomials__simplify_power:13:62efb05a"
+      },
+      {
+        "episode_id": "dev-0661",
+        "sample_id": "interpolate:numbers__div_remainder_composed:15:ee78df61"
+      },
+      {
+        "episode_id": "dev-0662",
+        "sample_id": "interpolate:comparison__closest:7:fe363ab4"
+      },
+      {
+        "episode_id": "dev-0663",
+        "sample_id": "interpolate:numbers__place_value_composed:5:a4e88e50"
+      },
+      {
+        "episode_id": "dev-0664",
+        "sample_id": "interpolate:polynomials__evaluate:11:68d30170"
+      },
+      {
+        "episode_id": "dev-0665",
+        "sample_id": "interpolate:measurement__time:2:0e847351"
+      },
+      {
+        "episode_id": "dev-0666",
+        "sample_id": "interpolate:arithmetic__mixed:14:86b98f2a"
+      },
+      {
+        "episode_id": "dev-0667",
+        "sample_id": "interpolate:measurement__time:15:9378f102"
+      },
+      {
+        "episode_id": "dev-0668",
+        "sample_id": "interpolate:polynomials__expand:8:72d855f8"
+      },
+      {
+        "episode_id": "dev-0669",
+        "sample_id": "interpolate:comparison__closest_composed:5:07d63c5b"
+      },
+      {
+        "episode_id": "dev-0670",
+        "sample_id": "interpolate:algebra__polynomial_roots:5:6804a627"
+      },
+      {
+        "episode_id": "dev-0671",
+        "sample_id": "interpolate:algebra__linear_1d:14:9e7d0a1b"
+      },
+      {
+        "episode_id": "dev-0672",
+        "sample_id": "extrapolate:arithmetic__mul_div_multiple_longer:28:60810151"
+      },
+      {
+        "episode_id": "dev-0673",
+        "sample_id": "extrapolate:numbers__round_number_big:45:a3d0b412"
+      },
+      {
+        "episode_id": "dev-0674",
+        "sample_id": "extrapolate:arithmetic__add_or_sub_big:30:9522b1de"
+      },
+      {
+        "episode_id": "dev-0675",
+        "sample_id": "extrapolate:arithmetic__add_sub_multiple_longer:34:d1dcebae"
+      },
+      {
+        "episode_id": "dev-0676",
+        "sample_id": "extrapolate:arithmetic__div_big:37:be957448"
+      },
+      {
+        "episode_id": "dev-0677",
+        "sample_id": "extrapolate:probability__swr_p_level_set_more_samples:57:c6d611b0"
+      },
+      {
+        "episode_id": "dev-0678",
+        "sample_id": "extrapolate:algebra__polynomial_roots_big:26:45e4f34e"
+      },
+      {
+        "episode_id": "dev-0679",
+        "sample_id": "extrapolate:comparison__sort_more:45:0d33cb95"
+      },
+      {
+        "episode_id": "dev-0680",
+        "sample_id": "extrapolate:measurement__conversion:17:3fe947fc"
+      },
+      {
+        "episode_id": "dev-0681",
+        "sample_id": "extrapolate:numbers__round_number_big:54:4c952f6b"
+      },
+      {
+        "episode_id": "dev-0682",
+        "sample_id": "extrapolate:comparison__closest_more:46:ea6d6e48"
+      },
+      {
+        "episode_id": "dev-0683",
+        "sample_id": "extrapolate:arithmetic__mixed_longer:17:2eaae051"
+      },
+      {
+        "episode_id": "dev-0684",
+        "sample_id": "extrapolate:comparison__sort_more:48:371a5cef"
+      },
+      {
+        "episode_id": "dev-0685",
+        "sample_id": "extrapolate:probability__swr_p_sequence_more_samples:25:3ed3aa84"
+      },
+      {
+        "episode_id": "dev-0686",
+        "sample_id": "extrapolate:comparison__sort_more:40:e40992db"
+      },
+      {
+        "episode_id": "dev-0687",
+        "sample_id": "extrapolate:comparison__kth_biggest_more:47:a4f54381"
+      },
+      {
+        "episode_id": "dev-0688",
+        "sample_id": "extrapolate:arithmetic__div_big:58:0f275f13"
+      },
+      {
+        "episode_id": "dev-0689",
+        "sample_id": "extrapolate:arithmetic__mul_big:4:a2c93762"
+      },
+      {
+        "episode_id": "dev-0690",
+        "sample_id": "extrapolate:arithmetic__add_or_sub_big:38:49985086"
+      },
+      {
+        "episode_id": "dev-0691",
+        "sample_id": "extrapolate:numbers__round_number_big:10:43b6abd8"
+      },
+      {
+        "episode_id": "dev-0692",
+        "sample_id": "extrapolate:algebra__polynomial_roots_big:14:675b4edc"
+      },
+      {
+        "episode_id": "dev-0693",
+        "sample_id": "extrapolate:arithmetic__mul_div_multiple_longer:52:a0e0a703"
+      },
+      {
+        "episode_id": "dev-0694",
+        "sample_id": "extrapolate:probability__swr_p_level_set_more_samples:38:33bf893a"
+      },
+      {
+        "episode_id": "dev-0695",
+        "sample_id": "extrapolate:numbers__round_number_big:34:c630c4d6"
+      },
+      {
+        "episode_id": "dev-0696",
+        "sample_id": "extrapolate:algebra__polynomial_roots_big:47:4c9b785e"
+      },
+      {
+        "episode_id": "dev-0697",
+        "sample_id": "extrapolate:arithmetic__add_or_sub_big:48:2d4b406c"
+      },
+      {
+        "episode_id": "dev-0698",
+        "sample_id": "extrapolate:comparison__sort_more:7:50a04fe6"
+      },
+      {
+        "episode_id": "dev-0699",
+        "sample_id": "extrapolate:arithmetic__add_sub_multiple_longer:17:5ebadb7a"
+      },
+      {
+        "episode_id": "dev-0700",
+        "sample_id": "extrapolate:probability__swr_p_level_set_more_samples:39:20b1e7a4"
+      },
+      {
+        "episode_id": "dev-0701",
+        "sample_id": "extrapolate:comparison__kth_biggest_more:49:ef05b616"
+      }
+    ],
+    "train": [
+      {
+        "episode_id": "train-0001",
+        "sample_id": "interpolate:numbers__round_number:13:8b89ff6d"
+      },
+      {
+        "episode_id": "train-0010",
+        "sample_id": "interpolate:polynomials__compose:3:c6c52fe2"
+      },
+      {
+        "episode_id": "train-0025",
+        "sample_id": "interpolate:numbers__base_conversion:12:2f6357a0"
+      },
+      {
+        "episode_id": "train-0032",
+        "sample_id": "extrapolate:arithmetic__mul_div_multiple_longer:49:f8bc24c5"
+      },
+      {
+        "episode_id": "train-0033",
+        "sample_id": "interpolate:algebra__polynomial_roots_composed:12:495ede84"
+      },
+      {
+        "episode_id": "train-0038",
+        "sample_id": "interpolate:algebra__sequence_next_term:1:bb279027"
+      },
+      {
+        "episode_id": "train-0041",
+        "sample_id": "extrapolate:comparison__kth_biggest_more:50:83d2ddc1"
+      },
+      {
+        "episode_id": "train-0047",
+        "sample_id": "extrapolate:numbers__place_value_big:13:86127e12"
+      },
+      {
+        "episode_id": "train-0048",
+        "sample_id": "interpolate:numbers__is_factor:2:6f1bd2ff"
+      },
+      {
+        "episode_id": "train-0057",
+        "sample_id": "interpolate:comparison__kth_biggest:3:3e3df2c7"
+      },
+      {
+        "episode_id": "train-0068",
+        "sample_id": "extrapolate:numbers__round_number_big:8:5c86b34c"
+      },
+      {
+        "episode_id": "train-0074",
+        "sample_id": "interpolate:algebra__sequence_nth_term:14:597dfee7"
+      },
+      {
+        "episode_id": "train-0076",
+        "sample_id": "extrapolate:arithmetic__add_or_sub_big:7:862e75c3"
+      },
+      {
+        "episode_id": "train-0078",
+        "sample_id": "interpolate:algebra__linear_1d:13:8a09a4a0"
+      },
+      {
+        "episode_id": "train-0083",
+        "sample_id": "extrapolate:numbers__round_number_big:42:3d7ba51a"
+      },
+      {
+        "episode_id": "train-0090",
+        "sample_id": "interpolate:calculus__differentiate:13:f87fdd1f"
+      },
+      {
+        "episode_id": "train-0092",
+        "sample_id": "interpolate:numbers__div_remainder:2:658747c9"
+      },
+      {
+        "episode_id": "train-0093",
+        "sample_id": "interpolate:comparison__kth_biggest_composed:9:ded0df10"
+      },
+      {
+        "episode_id": "train-0109",
+        "sample_id": "interpolate:comparison__kth_biggest:5:abc645ca"
+      },
+      {
+        "episode_id": "train-0118",
+        "sample_id": "extrapolate:arithmetic__add_or_sub_big:22:2e20d567"
+      },
+      {
+        "episode_id": "train-0119",
+        "sample_id": "interpolate:calculus__differentiate_composed:0:28260693"
+      },
+      {
+        "episode_id": "train-0121",
+        "sample_id": "extrapolate:algebra__polynomial_roots_big:51:0882cb5d"
+      },
+      {
+        "episode_id": "train-0130",
+        "sample_id": "extrapolate:probability__swr_p_level_set_more_samples:40:f6bb675e"
+      },
+      {
+        "episode_id": "train-0131",
+        "sample_id": "interpolate:algebra__sequence_nth_term:15:67a2d4a2"
+      },
+      {
+        "episode_id": "train-0134",
+        "sample_id": "interpolate:arithmetic__div:7:ce0526ad"
+      },
+      {
+        "episode_id": "train-0147",
+        "sample_id": "interpolate:numbers__list_prime_factors:7:7cda0bbb"
+      },
+      {
+        "episode_id": "train-0151",
+        "sample_id": "extrapolate:arithmetic__mul_div_multiple_longer:48:7aebdfb7"
+      },
+      {
+        "episode_id": "train-0157",
+        "sample_id": "interpolate:arithmetic__div:2:a910c1ae"
+      },
+      {
+        "episode_id": "train-0162",
+        "sample_id": "interpolate:arithmetic__mul:10:32157589"
+      },
+      {
+        "episode_id": "train-0164",
+        "sample_id": "extrapolate:arithmetic__mixed_longer:7:09be33d6"
+      },
+      {
+        "episode_id": "train-0180",
+        "sample_id": "extrapolate:arithmetic__add_or_sub_big:55:e40a0f8e"
+      },
+      {
+        "episode_id": "train-0183",
+        "sample_id": "interpolate:polynomials__evaluate:1:8bcacc0b"
+      },
+      {
+        "episode_id": "train-0200",
+        "sample_id": "interpolate:numbers__lcm:11:d9cab330"
+      },
+      {
+        "episode_id": "train-0215",
+        "sample_id": "interpolate:algebra__sequence_next_term:6:3d468355"
+      },
+      {
+        "episode_id": "train-0221",
+        "sample_id": "interpolate:numbers__round_number_composed:1:509b2887"
+      },
+      {
+        "episode_id": "train-0226",
+        "sample_id": "extrapolate:numbers__place_value_big:41:6d3ed290"
+      },
+      {
+        "episode_id": "train-0237",
+        "sample_id": "extrapolate:arithmetic__div_big:25:5820abe8"
+      },
+      {
+        "episode_id": "train-0244",
+        "sample_id": "extrapolate:comparison__sort_more:34:6db1f95f"
+      },
+      {
+        "episode_id": "train-0245",
+        "sample_id": "extrapolate:arithmetic__div_big:53:07bb5fa9"
+      },
+      {
+        "episode_id": "train-0249",
+        "sample_id": "interpolate:comparison__kth_biggest_composed:13:361c409c"
+      },
+      {
+        "episode_id": "train-0250",
+        "sample_id": "extrapolate:arithmetic__div_big:23:ec9e7632"
+      },
+      {
+        "episode_id": "train-0251",
+        "sample_id": "interpolate:comparison__pair_composed:8:a325c930"
+      },
+      {
+        "episode_id": "train-0255",
+        "sample_id": "interpolate:numbers__is_factor:1:552fa494"
+      },
+      {
+        "episode_id": "train-0258",
+        "sample_id": "interpolate:numbers__is_prime:0:403b8da5"
+      },
+      {
+        "episode_id": "train-0262",
+        "sample_id": "extrapolate:measurement__conversion:16:9d84cc3d"
+      },
+      {
+        "episode_id": "train-0264",
+        "sample_id": "interpolate:numbers__is_factor_composed:3:eed66d1e"
+      },
+      {
+        "episode_id": "train-0272",
+        "sample_id": "interpolate:measurement__time:9:a47bb827"
+      },
+      {
+        "episode_id": "train-0277",
+        "sample_id": "interpolate:numbers__div_remainder:5:ad488478"
+      },
+      {
+        "episode_id": "train-0278",
+        "sample_id": "extrapolate:arithmetic__mul_div_multiple_longer:13:cd9719d7"
+      },
+      {
+        "episode_id": "train-0282",
+        "sample_id": "extrapolate:numbers__place_value_big:1:41bfe7e7"
+      },
+      {
+        "episode_id": "train-0287",
+        "sample_id": "interpolate:calculus__differentiate:14:1f34ba0d"
+      },
+      {
+        "episode_id": "train-0289",
+        "sample_id": "extrapolate:probability__swr_p_sequence_more_samples:7:2e7eddb0"
+      },
+      {
+        "episode_id": "train-0291",
+        "sample_id": "extrapolate:comparison__kth_biggest_more:43:4103f59c"
+      },
+      {
+        "episode_id": "train-0298",
+        "sample_id": "extrapolate:comparison__closest_more:16:451e93fd"
+      },
+      {
+        "episode_id": "train-0301",
+        "sample_id": "extrapolate:comparison__closest_more:22:f2a27d48"
+      },
+      {
+        "episode_id": "train-0313",
+        "sample_id": "extrapolate:arithmetic__add_or_sub_big:29:cd4c0380"
+      },
+      {
+        "episode_id": "train-0318",
+        "sample_id": "interpolate:arithmetic__simplify_surd:4:16c7401c"
+      },
+      {
+        "episode_id": "train-0328",
+        "sample_id": "interpolate:algebra__linear_2d:1:6213ba17"
+      },
+      {
+        "episode_id": "train-0329",
+        "sample_id": "interpolate:polynomials__coefficient_named:15:8fec36db"
+      },
+      {
+        "episode_id": "train-0334",
+        "sample_id": "interpolate:algebra__linear_1d:5:0f79f387"
+      },
+      {
+        "episode_id": "train-0339",
+        "sample_id": "interpolate:polynomials__coefficient_named:4:4181d31d"
+      },
+      {
+        "episode_id": "train-0343",
+        "sample_id": "extrapolate:comparison__sort_more:8:45532c95"
+      },
+      {
+        "episode_id": "train-0350",
+        "sample_id": "interpolate:arithmetic__nearest_integer_root:15:66146efb"
+      },
+      {
+        "episode_id": "train-0354",
+        "sample_id": "extrapolate:algebra__polynomial_roots_big:41:549316f1"
+      },
+      {
+        "episode_id": "train-0356",
+        "sample_id": "interpolate:numbers__list_prime_factors_composed:8:8a8c1afa"
+      },
+      {
+        "episode_id": "train-0357",
+        "sample_id": "interpolate:arithmetic__nearest_integer_root:0:6fb41a97"
+      },
+      {
+        "episode_id": "train-0363",
+        "sample_id": "interpolate:algebra__linear_2d:2:7a8f2b54"
+      },
+      {
+        "episode_id": "train-0366",
+        "sample_id": "extrapolate:arithmetic__div_big:11:89083b3c"
+      },
+      {
+        "episode_id": "train-0367",
+        "sample_id": "interpolate:comparison__sort:1:4997027f"
+      },
+      {
+        "episode_id": "train-0393",
+        "sample_id": "interpolate:comparison__pair:4:504cc49b"
+      },
+      {
+        "episode_id": "train-0395",
+        "sample_id": "extrapolate:arithmetic__add_sub_multiple_longer:11:82603c9d"
+      },
+      {
+        "episode_id": "train-0410",
+        "sample_id": "extrapolate:numbers__round_number_big:29:b38bbf91"
+      },
+      {
+        "episode_id": "train-0419",
+        "sample_id": "interpolate:polynomials__evaluate_composed:8:ad3de45e"
+      },
+      {
+        "episode_id": "train-0420",
+        "sample_id": "interpolate:calculus__differentiate:12:8a376fd3"
+      },
+      {
+        "episode_id": "train-0423",
+        "sample_id": "extrapolate:measurement__conversion:2:627266ce"
+      },
+      {
+        "episode_id": "train-0429",
+        "sample_id": "interpolate:arithmetic__mixed:0:11e17b54"
+      },
+      {
+        "episode_id": "train-0431",
+        "sample_id": "interpolate:comparison__pair_composed:11:75e4fc6f"
+      },
+      {
+        "episode_id": "train-0434",
+        "sample_id": "extrapolate:measurement__conversion:34:d6c0bc39"
+      },
+      {
+        "episode_id": "train-0437",
+        "sample_id": "interpolate:algebra__polynomial_roots:8:af033ee4"
+      },
+      {
+        "episode_id": "train-0438",
+        "sample_id": "extrapolate:arithmetic__mul_big:14:79a652f1"
+      },
+      {
+        "episode_id": "train-0439",
+        "sample_id": "interpolate:numbers__round_number_composed:6:8dfe9e56"
+      },
+      {
+        "episode_id": "train-0451",
+        "sample_id": "interpolate:polynomials__collect:2:1fa950cc"
+      },
+      {
+        "episode_id": "train-0454",
+        "sample_id": "interpolate:comparison__closest:9:8b1affe7"
+      },
+      {
+        "episode_id": "train-0465",
+        "sample_id": "extrapolate:arithmetic__mul_div_multiple_longer:45:be6f065a"
+      },
+      {
+        "episode_id": "train-0471",
+        "sample_id": "extrapolate:comparison__kth_biggest_more:31:f8d84b6d"
+      },
+      {
+        "episode_id": "train-0476",
+        "sample_id": "interpolate:comparison__pair:0:90e7e35b"
+      },
+      {
+        "episode_id": "train-0481",
+        "sample_id": "extrapolate:comparison__closest_more:30:53ac8f87"
+      },
+      {
+        "episode_id": "train-0497",
+        "sample_id": "extrapolate:arithmetic__add_sub_multiple_longer:0:09eb7dfe"
+      },
+      {
+        "episode_id": "train-0498",
+        "sample_id": "interpolate:polynomials__collect:6:afa88033"
+      },
+      {
+        "episode_id": "train-0509",
+        "sample_id": "extrapolate:probability__swr_p_sequence_more_samples:24:a9b1ac14"
+      },
+      {
+        "episode_id": "train-0518",
+        "sample_id": "extrapolate:measurement__conversion:56:aa18187b"
+      },
+      {
+        "episode_id": "train-0524",
+        "sample_id": "interpolate:arithmetic__mul_div_multiple:6:5274fff1"
+      },
+      {
+        "episode_id": "train-0528",
+        "sample_id": "extrapolate:arithmetic__mul_big:22:ef5ac27b"
+      },
+      {
+        "episode_id": "train-0543",
+        "sample_id": "extrapolate:arithmetic__mul_div_multiple_longer:54:d0bfa991"
+      },
+      {
+        "episode_id": "train-0544",
+        "sample_id": "interpolate:polynomials__collect:3:b26108e3"
+      },
+      {
+        "episode_id": "train-0545",
+        "sample_id": "extrapolate:probability__swr_p_sequence_more_samples:32:e8bad9ac"
+      },
+      {
+        "episode_id": "train-0550",
+        "sample_id": "extrapolate:arithmetic__mul_big:43:1b3200ae"
+      },
+      {
+        "episode_id": "train-0559",
+        "sample_id": "interpolate:algebra__polynomial_roots_composed:15:7454c9e0"
+      },
+      {
+        "episode_id": "train-0562",
+        "sample_id": "extrapolate:arithmetic__mul_big:12:a54b0f3f"
+      },
+      {
+        "episode_id": "train-0571",
+        "sample_id": "interpolate:polynomials__coefficient_named:0:b5f1bd71"
+      },
+      {
+        "episode_id": "train-0576",
+        "sample_id": "extrapolate:comparison__sort_more:42:0256f82d"
+      },
+      {
+        "episode_id": "train-0582",
+        "sample_id": "interpolate:numbers__gcd_composed:0:1426600d"
+      },
+      {
+        "episode_id": "train-0588",
+        "sample_id": "interpolate:algebra__polynomial_roots:4:42d7b787"
+      },
+      {
+        "episode_id": "train-0592",
+        "sample_id": "interpolate:arithmetic__nearest_integer_root:4:f54e72bd"
+      },
+      {
+        "episode_id": "train-0593",
+        "sample_id": "interpolate:numbers__is_prime_composed:10:2068ca29"
+      },
+      {
+        "episode_id": "train-0594",
+        "sample_id": "interpolate:numbers__gcd:0:38c07587"
+      },
+      {
+        "episode_id": "train-0595",
+        "sample_id": "interpolate:measurement__conversion:7:5a71d338"
+      },
+      {
+        "episode_id": "train-0603",
+        "sample_id": "extrapolate:arithmetic__add_or_sub_big:13:228ee698"
+      },
+      {
+        "episode_id": "train-0604",
+        "sample_id": "extrapolate:numbers__place_value_big:3:4d6c5f92"
+      },
+      {
+        "episode_id": "train-0609",
+        "sample_id": "interpolate:polynomials__compose:0:6f01ea6d"
+      },
+      {
+        "episode_id": "train-0614",
+        "sample_id": "interpolate:algebra__linear_2d:16:a5ac61b6"
+      },
+      {
+        "episode_id": "train-0617",
+        "sample_id": "interpolate:algebra__linear_1d_composed:2:1023e7b2"
+      },
+      {
+        "episode_id": "train-0622",
+        "sample_id": "interpolate:algebra__polynomial_roots_composed:4:fbb59c87"
+      },
+      {
+        "episode_id": "train-0626",
+        "sample_id": "interpolate:arithmetic__nearest_integer_root:2:c54eb0aa"
+      },
+      {
+        "episode_id": "train-0630",
+        "sample_id": "interpolate:polynomials__collect:14:a1bbd453"
+      },
+      {
+        "episode_id": "train-0637",
+        "sample_id": "extrapolate:probability__swr_p_sequence_more_samples:6:2192c6df"
+      },
+      {
+        "episode_id": "train-0642",
+        "sample_id": "extrapolate:measurement__conversion:58:35693218"
+      },
+      {
+        "episode_id": "train-0645",
+        "sample_id": "extrapolate:arithmetic__add_sub_multiple_longer:58:ce49ac2c"
+      },
+      {
+        "episode_id": "train-0655",
+        "sample_id": "interpolate:arithmetic__add_or_sub_in_base:3:d5d6c60e"
+      },
+      {
+        "episode_id": "train-0658",
+        "sample_id": "interpolate:numbers__place_value:11:612e158a"
+      },
+      {
+        "episode_id": "train-0675",
+        "sample_id": "interpolate:algebra__polynomial_roots:9:b2df65c9"
+      },
+      {
+        "episode_id": "train-0681",
+        "sample_id": "interpolate:algebra__sequence_nth_term:4:4b6fcc62"
+      },
+      {
+        "episode_id": "train-0682",
+        "sample_id": "interpolate:algebra__sequence_nth_term:3:85cadff8"
+      },
+      {
+        "episode_id": "train-0684",
+        "sample_id": "interpolate:comparison__pair:3:e81b12fd"
+      },
+      {
+        "episode_id": "train-0696",
+        "sample_id": "interpolate:measurement__time:5:331e0bf0"
+      },
+      {
+        "episode_id": "train-0698",
+        "sample_id": "interpolate:algebra__linear_1d:8:38b54608"
+      },
+      {
+        "episode_id": "train-0702",
+        "sample_id": "extrapolate:arithmetic__mixed_longer:53:96649d52"
+      },
+      {
+        "episode_id": "train-0705",
+        "sample_id": "interpolate:numbers__gcd:5:d3986357"
+      },
+      {
+        "episode_id": "train-0713",
+        "sample_id": "extrapolate:comparison__sort_more:54:4ac4d568"
+      },
+      {
+        "episode_id": "train-0724",
+        "sample_id": "interpolate:polynomials__coefficient_named:10:cf079b75"
+      },
+      {
+        "episode_id": "train-0727",
+        "sample_id": "interpolate:arithmetic__mul_div_multiple:0:046a0e18"
+      },
+      {
+        "episode_id": "train-0730",
+        "sample_id": "extrapolate:arithmetic__add_sub_multiple_longer:7:691fab47"
+      },
+      {
+        "episode_id": "train-0732",
+        "sample_id": "interpolate:numbers__lcm:13:1f724504"
+      },
+      {
+        "episode_id": "train-0733",
+        "sample_id": "interpolate:polynomials__add:15:f7534cbd"
+      },
+      {
+        "episode_id": "train-0737",
+        "sample_id": "interpolate:algebra__sequence_nth_term:1:34fdc62c"
+      },
+      {
+        "episode_id": "train-0746",
+        "sample_id": "interpolate:arithmetic__mul:13:9fd20130"
+      },
+      {
+        "episode_id": "train-0755",
+        "sample_id": "extrapolate:algebra__polynomial_roots_big:3:291dd356"
+      },
+      {
+        "episode_id": "train-0760",
+        "sample_id": "interpolate:measurement__conversion:1:6f77071d"
+      },
+      {
+        "episode_id": "train-0765",
+        "sample_id": "extrapolate:comparison__sort_more:53:153edf64"
+      },
+      {
+        "episode_id": "train-0769",
+        "sample_id": "extrapolate:measurement__conversion:28:3fdcf43b"
+      },
+      {
+        "episode_id": "train-0771",
+        "sample_id": "extrapolate:comparison__sort_more:46:4421a89f"
+      },
+      {
+        "episode_id": "train-0772",
+        "sample_id": "interpolate:numbers__lcm_composed:2:cb81d010"
+      },
+      {
+        "episode_id": "train-0776",
+        "sample_id": "interpolate:arithmetic__add_or_sub_in_base:8:1d8e58bd"
+      },
+      {
+        "episode_id": "train-0778",
+        "sample_id": "extrapolate:probability__swr_p_level_set_more_samples:54:c98a68d5"
+      },
+      {
+        "episode_id": "train-0779",
+        "sample_id": "interpolate:numbers__lcm_composed:1:9a256ac3"
+      },
+      {
+        "episode_id": "train-0780",
+        "sample_id": "extrapolate:probability__swr_p_level_set_more_samples:27:1e559f96"
+      },
+      {
+        "episode_id": "train-0796",
+        "sample_id": "extrapolate:measurement__conversion:48:36e8e0f1"
+      },
+      {
+        "episode_id": "train-0807",
+        "sample_id": "interpolate:arithmetic__simplify_surd:2:bf59e0fb"
+      },
+      {
+        "episode_id": "train-0816",
+        "sample_id": "interpolate:numbers__gcd_composed:3:51dd408a"
+      },
+      {
+        "episode_id": "train-0833",
+        "sample_id": "interpolate:polynomials__expand:11:3f33999e"
+      },
+      {
+        "episode_id": "train-1250",
+        "sample_id": "interpolate:comparison__kth_biggest:1:8904efe9"
+      },
+      {
+        "episode_id": "train-1251",
+        "sample_id": "interpolate:numbers__div_remainder_composed:0:2b37832f"
+      },
+      {
+        "episode_id": "train-1252",
+        "sample_id": "interpolate:numbers__div_remainder:7:ee70eaa8"
+      },
+      {
+        "episode_id": "train-1253",
+        "sample_id": "interpolate:comparison__closest_composed:1:58fea50a"
+      },
+      {
+        "episode_id": "train-1254",
+        "sample_id": "interpolate:algebra__polynomial_roots_composed:3:1fa66b82"
+      },
+      {
+        "episode_id": "train-1255",
+        "sample_id": "interpolate:algebra__sequence_next_term:9:e0e68dd2"
+      },
+      {
+        "episode_id": "train-1256",
+        "sample_id": "interpolate:arithmetic__simplify_surd:15:746fcbb4"
+      },
+      {
+        "episode_id": "train-1257",
+        "sample_id": "interpolate:polynomials__simplify_power:11:762246b0"
+      },
+      {
+        "episode_id": "train-1258",
+        "sample_id": "interpolate:comparison__kth_biggest_composed:2:921508f0"
+      },
+      {
+        "episode_id": "train-1259",
+        "sample_id": "interpolate:arithmetic__add_or_sub:1:b907edfa"
+      },
+      {
+        "episode_id": "train-1260",
+        "sample_id": "interpolate:comparison__sort:15:addc6453"
+      },
+      {
+        "episode_id": "train-1261",
+        "sample_id": "interpolate:numbers__base_conversion:0:4d14d791"
+      },
+      {
+        "episode_id": "train-1262",
+        "sample_id": "interpolate:arithmetic__add_or_sub_in_base:1:fdd07443"
+      },
+      {
+        "episode_id": "train-1263",
+        "sample_id": "interpolate:algebra__linear_2d:11:c352a8ed"
+      },
+      {
+        "episode_id": "train-1264",
+        "sample_id": "interpolate:numbers__round_number:8:aade5d15"
+      },
+      {
+        "episode_id": "train-1265",
+        "sample_id": "interpolate:arithmetic__add_or_sub:0:4cc193a8"
+      },
+      {
+        "episode_id": "train-1266",
+        "sample_id": "interpolate:numbers__round_number:9:ddfa565e"
+      },
+      {
+        "episode_id": "train-1267",
+        "sample_id": "interpolate:comparison__pair:14:f112c038"
+      },
+      {
+        "episode_id": "train-1268",
+        "sample_id": "interpolate:arithmetic__add_or_sub_in_base:6:f51ad9bd"
+      },
+      {
+        "episode_id": "train-1269",
+        "sample_id": "interpolate:numbers__list_prime_factors:1:b793647b"
+      },
+      {
+        "episode_id": "train-1270",
+        "sample_id": "interpolate:polynomials__simplify_power:12:eb9d4ee8"
+      },
+      {
+        "episode_id": "train-1271",
+        "sample_id": "interpolate:polynomials__add:2:be6824f4"
+      },
+      {
+        "episode_id": "train-1272",
+        "sample_id": "interpolate:numbers__gcd:6:669878be"
+      },
+      {
+        "episode_id": "train-1273",
+        "sample_id": "interpolate:measurement__conversion:5:c69fc2e6"
+      },
+      {
+        "episode_id": "train-1274",
+        "sample_id": "interpolate:algebra__polynomial_roots:1:83b5dc0d"
+      },
+      {
+        "episode_id": "train-1275",
+        "sample_id": "interpolate:algebra__linear_1d_composed:12:b5ef2c14"
+      },
+      {
+        "episode_id": "train-1276",
+        "sample_id": "interpolate:numbers__gcd_composed:7:619d26fa"
+      },
+      {
+        "episode_id": "train-1277",
+        "sample_id": "interpolate:polynomials__collect:15:39aad88d"
+      },
+      {
+        "episode_id": "train-1278",
+        "sample_id": "interpolate:numbers__lcm_composed:0:6cb80ecf"
+      },
+      {
+        "episode_id": "train-1279",
+        "sample_id": "interpolate:algebra__polynomial_roots_composed:14:3e24efcc"
+      },
+      {
+        "episode_id": "train-1280",
+        "sample_id": "interpolate:arithmetic__add_sub_multiple:11:316a92dd"
+      },
+      {
+        "episode_id": "train-1281",
+        "sample_id": "interpolate:arithmetic__add_or_sub:10:2d78ee71"
+      },
+      {
+        "episode_id": "train-1282",
+        "sample_id": "interpolate:algebra__linear_2d_composed:16:01285a6d"
+      },
+      {
+        "episode_id": "train-1283",
+        "sample_id": "interpolate:comparison__kth_biggest_composed:3:ed16e31e"
+      },
+      {
+        "episode_id": "train-1284",
+        "sample_id": "interpolate:numbers__lcm:15:b727fe9d"
+      },
+      {
+        "episode_id": "train-1285",
+        "sample_id": "interpolate:arithmetic__simplify_surd:10:671a268d"
+      },
+      {
+        "episode_id": "train-1286",
+        "sample_id": "interpolate:arithmetic__mul:12:c043a059"
+      },
+      {
+        "episode_id": "train-1287",
+        "sample_id": "interpolate:arithmetic__add_or_sub:8:e27ae911"
+      },
+      {
+        "episode_id": "train-1288",
+        "sample_id": "interpolate:numbers__is_prime:9:b050873b"
+      },
+      {
+        "episode_id": "train-1289",
+        "sample_id": "interpolate:comparison__sort:3:4c036f73"
+      },
+      {
+        "episode_id": "train-1290",
+        "sample_id": "interpolate:polynomials__collect:10:07872082"
+      },
+      {
+        "episode_id": "train-1291",
+        "sample_id": "interpolate:numbers__round_number_composed:12:ed667eea"
+      },
+      {
+        "episode_id": "train-1292",
+        "sample_id": "interpolate:algebra__linear_2d_composed:3:9e66d541"
+      },
+      {
+        "episode_id": "train-1293",
+        "sample_id": "interpolate:numbers__div_remainder:9:d1f71919"
+      },
+      {
+        "episode_id": "train-1294",
+        "sample_id": "interpolate:numbers__lcm_composed:3:1772ac41"
+      },
+      {
+        "episode_id": "train-1295",
+        "sample_id": "interpolate:comparison__closest:4:cd8cc071"
+      },
+      {
+        "episode_id": "train-1296",
+        "sample_id": "interpolate:numbers__is_prime_composed:8:7b33d318"
+      },
+      {
+        "episode_id": "train-1297",
+        "sample_id": "interpolate:numbers__div_remainder_composed:8:7e43de84"
+      },
+      {
+        "episode_id": "train-1298",
+        "sample_id": "interpolate:algebra__linear_2d:5:81122f71"
+      },
+      {
+        "episode_id": "train-1299",
+        "sample_id": "interpolate:polynomials__expand:5:e38760e4"
+      },
+      {
+        "episode_id": "train-1300",
+        "sample_id": "interpolate:arithmetic__add_sub_multiple:15:61449365"
+      },
+      {
+        "episode_id": "train-1301",
+        "sample_id": "interpolate:arithmetic__nearest_integer_root:12:8e16ecbf"
+      },
+      {
+        "episode_id": "train-1302",
+        "sample_id": "interpolate:polynomials__compose:5:b5a4a5eb"
+      },
+      {
+        "episode_id": "train-1303",
+        "sample_id": "interpolate:probability__swr_p_level_set:6:3b3e1cc9"
+      },
+      {
+        "episode_id": "train-1304",
+        "sample_id": "interpolate:numbers__base_conversion:4:a6268fc6"
+      },
+      {
+        "episode_id": "train-1305",
+        "sample_id": "interpolate:arithmetic__add_or_sub:12:df07d5aa"
+      },
+      {
+        "episode_id": "train-1306",
+        "sample_id": "interpolate:algebra__sequence_nth_term:5:0b88b05f"
+      },
+      {
+        "episode_id": "train-1307",
+        "sample_id": "interpolate:polynomials__compose:13:b7f2b2d6"
+      },
+      {
+        "episode_id": "train-1308",
+        "sample_id": "interpolate:numbers__place_value_composed:9:ee1bb1aa"
+      },
+      {
+        "episode_id": "train-1309",
+        "sample_id": "interpolate:numbers__is_prime:13:10dbdc28"
+      },
+      {
+        "episode_id": "train-1310",
+        "sample_id": "interpolate:numbers__is_factor_composed:0:a26a6cdc"
+      },
+      {
+        "episode_id": "train-1311",
+        "sample_id": "interpolate:algebra__linear_2d_composed:15:6a7d564e"
+      },
+      {
+        "episode_id": "train-1312",
+        "sample_id": "interpolate:arithmetic__mul_div_multiple:12:6835ca3a"
+      },
+      {
+        "episode_id": "train-1313",
+        "sample_id": "interpolate:arithmetic__div:10:fd5f02d8"
+      },
+      {
+        "episode_id": "train-1314",
+        "sample_id": "interpolate:polynomials__evaluate_composed:11:8d3d6227"
+      },
+      {
+        "episode_id": "train-1315",
+        "sample_id": "interpolate:comparison__sort:2:3683d8e5"
+      },
+      {
+        "episode_id": "train-1316",
+        "sample_id": "interpolate:arithmetic__add_or_sub:3:133bfd96"
+      },
+      {
+        "episode_id": "train-1317",
+        "sample_id": "interpolate:numbers__place_value_composed:7:463c6efa"
+      },
+      {
+        "episode_id": "train-1318",
+        "sample_id": "interpolate:numbers__lcm:8:d5d3f130"
+      },
+      {
+        "episode_id": "train-1319",
+        "sample_id": "interpolate:probability__swr_p_level_set:9:cddb3171"
+      },
+      {
+        "episode_id": "train-1320",
+        "sample_id": "interpolate:comparison__sort_composed:14:48d597f2"
+      },
+      {
+        "episode_id": "train-1321",
+        "sample_id": "interpolate:arithmetic__div:8:18a81c8f"
+      },
+      {
+        "episode_id": "train-1322",
+        "sample_id": "interpolate:numbers__is_factor_composed:4:ddce0fb6"
+      },
+      {
+        "episode_id": "train-1323",
+        "sample_id": "interpolate:calculus__differentiate_composed:13:fb631cf1"
+      },
+      {
+        "episode_id": "train-1324",
+        "sample_id": "interpolate:comparison__kth_biggest:11:aec7bce0"
+      },
+      {
+        "episode_id": "train-1325",
+        "sample_id": "interpolate:polynomials__add:11:4970f434"
+      },
+      {
+        "episode_id": "train-1326",
+        "sample_id": "interpolate:numbers__lcm_composed:12:67313afb"
+      },
+      {
+        "episode_id": "train-1327",
+        "sample_id": "interpolate:comparison__pair_composed:2:d823fcfb"
+      },
+      {
+        "episode_id": "train-1328",
+        "sample_id": "interpolate:arithmetic__mul_div_multiple:14:3d005112"
+      },
+      {
+        "episode_id": "train-1329",
+        "sample_id": "interpolate:arithmetic__mul_div_multiple:7:ca8de221"
+      },
+      {
+        "episode_id": "train-1330",
+        "sample_id": "interpolate:comparison__sort_composed:10:f5e63665"
+      },
+      {
+        "episode_id": "train-1331",
+        "sample_id": "interpolate:numbers__round_number:3:b9325150"
+      },
+      {
+        "episode_id": "train-1332",
+        "sample_id": "interpolate:polynomials__compose:2:830017fc"
+      },
+      {
+        "episode_id": "train-1333",
+        "sample_id": "interpolate:numbers__list_prime_factors:15:652d038a"
+      },
+      {
+        "episode_id": "train-1334",
+        "sample_id": "interpolate:comparison__kth_biggest_composed:8:425912c6"
+      },
+      {
+        "episode_id": "train-1335",
+        "sample_id": "interpolate:probability__swr_p_level_set:7:e2961de0"
+      },
+      {
+        "episode_id": "train-1336",
+        "sample_id": "interpolate:measurement__conversion:0:1bfba018"
+      },
+      {
+        "episode_id": "train-1337",
+        "sample_id": "interpolate:numbers__gcd_composed:4:a4c58257"
+      },
+      {
+        "episode_id": "train-1338",
+        "sample_id": "interpolate:numbers__div_remainder_composed:4:a041bda5"
+      },
+      {
+        "episode_id": "train-1339",
+        "sample_id": "interpolate:numbers__gcd_composed:12:f10f3ebd"
+      },
+      {
+        "episode_id": "train-1340",
+        "sample_id": "interpolate:algebra__linear_1d:6:52d6bbee"
+      },
+      {
+        "episode_id": "train-1341",
+        "sample_id": "interpolate:comparison__sort_composed:12:cd96e915"
+      },
+      {
+        "episode_id": "train-1342",
+        "sample_id": "interpolate:numbers__gcd:10:88777963"
+      },
+      {
+        "episode_id": "train-1343",
+        "sample_id": "extrapolate:arithmetic__mul_big:7:23e33bb6"
+      },
+      {
+        "episode_id": "train-1344",
+        "sample_id": "extrapolate:numbers__place_value_big:12:d58fe2d1"
+      },
+      {
+        "episode_id": "train-1345",
+        "sample_id": "extrapolate:arithmetic__mul_div_multiple_longer:50:c3ccd48c"
+      },
+      {
+        "episode_id": "train-1346",
+        "sample_id": "extrapolate:numbers__place_value_big:32:941f686b"
+      },
+      {
+        "episode_id": "train-1347",
+        "sample_id": "extrapolate:arithmetic__mixed_longer:5:dd8490e7"
+      },
+      {
+        "episode_id": "train-1348",
+        "sample_id": "extrapolate:comparison__sort_more:31:b79509d0"
+      },
+      {
+        "episode_id": "train-1349",
+        "sample_id": "extrapolate:arithmetic__div_big:39:e15f28bb"
+      },
+      {
+        "episode_id": "train-1350",
+        "sample_id": "extrapolate:probability__swr_p_level_set_more_samples:51:3eb7e705"
+      },
+      {
+        "episode_id": "train-1351",
+        "sample_id": "extrapolate:arithmetic__mul_div_multiple_longer:1:205353a8"
+      },
+      {
+        "episode_id": "train-1352",
+        "sample_id": "extrapolate:comparison__kth_biggest_more:35:406be10a"
+      },
+      {
+        "episode_id": "train-1353",
+        "sample_id": "extrapolate:arithmetic__mixed_longer:58:7a432f6e"
+      },
+      {
+        "episode_id": "train-1354",
+        "sample_id": "extrapolate:algebra__polynomial_roots_big:11:363a7b17"
+      },
+      {
+        "episode_id": "train-1355",
+        "sample_id": "extrapolate:probability__swr_p_level_set_more_samples:28:4a05e7b0"
+      },
+      {
+        "episode_id": "train-1356",
+        "sample_id": "extrapolate:arithmetic__div_big:35:2772df7b"
+      },
+      {
+        "episode_id": "train-1357",
+        "sample_id": "extrapolate:numbers__place_value_big:52:f78b7d63"
+      },
+      {
+        "episode_id": "train-1358",
+        "sample_id": "extrapolate:arithmetic__add_sub_multiple_longer:4:39a59509"
+      },
+      {
+        "episode_id": "train-1359",
+        "sample_id": "extrapolate:arithmetic__mul_big:59:0d1bcdeb"
+      },
+      {
+        "episode_id": "train-1360",
+        "sample_id": "extrapolate:arithmetic__add_or_sub_big:33:c5411677"
+      },
+      {
+        "episode_id": "train-1361",
+        "sample_id": "extrapolate:probability__swr_p_sequence_more_samples:44:1a7f1395"
+      },
+      {
+        "episode_id": "train-1362",
+        "sample_id": "extrapolate:algebra__polynomial_roots_big:24:cc9258ae"
+      },
+      {
+        "episode_id": "train-1363",
+        "sample_id": "extrapolate:comparison__closest_more:56:4c77c018"
+      },
+      {
+        "episode_id": "train-1364",
+        "sample_id": "extrapolate:arithmetic__mixed_longer:11:68643cab"
+      },
+      {
+        "episode_id": "train-1365",
+        "sample_id": "extrapolate:probability__swr_p_sequence_more_samples:41:08392921"
+      },
+      {
+        "episode_id": "train-1366",
+        "sample_id": "extrapolate:comparison__kth_biggest_more:58:bb12c5ec"
+      },
+      {
+        "episode_id": "train-1367",
+        "sample_id": "extrapolate:probability__swr_p_sequence_more_samples:38:2eb52d93"
+      },
+      {
+        "episode_id": "train-1368",
+        "sample_id": "extrapolate:measurement__conversion:27:c552472d"
+      },
+      {
+        "episode_id": "train-1369",
+        "sample_id": "extrapolate:arithmetic__add_or_sub_big:26:3857f595"
+      },
+      {
+        "episode_id": "train-1370",
+        "sample_id": "extrapolate:arithmetic__mul_big:37:253be1c9"
+      },
+      {
+        "episode_id": "train-1371",
+        "sample_id": "extrapolate:probability__swr_p_sequence_more_samples:49:7428ec11"
+      },
+      {
+        "episode_id": "train-1372",
+        "sample_id": "extrapolate:comparison__closest_more:48:73c6e688"
+      },
+      {
+        "episode_id": "train-1373",
+        "sample_id": "extrapolate:arithmetic__add_or_sub_big:9:d0b33932"
+      },
+      {
+        "episode_id": "train-1374",
+        "sample_id": "extrapolate:arithmetic__add_or_sub_big:34:bbc8a70b"
+      },
+      {
+        "episode_id": "train-1375",
+        "sample_id": "extrapolate:arithmetic__mul_big:47:5ffa1177"
+      },
+      {
+        "episode_id": "train-1376",
+        "sample_id": "extrapolate:comparison__sort_more:6:2948a408"
+      },
+      {
+        "episode_id": "train-1377",
+        "sample_id": "extrapolate:algebra__polynomial_roots_big:1:2469f9b9"
+      },
+      {
+        "episode_id": "train-1378",
+        "sample_id": "extrapolate:arithmetic__div_big:33:387e9e9d"
+      },
+      {
+        "episode_id": "train-1379",
+        "sample_id": "extrapolate:arithmetic__mul_div_multiple_longer:20:9c4c5dc8"
+      },
+      {
+        "episode_id": "train-1380",
+        "sample_id": "extrapolate:algebra__polynomial_roots_big:33:c0722acf"
+      },
+      {
+        "episode_id": "train-1381",
+        "sample_id": "extrapolate:arithmetic__mul_big:10:7c819ed6"
+      },
+      {
+        "episode_id": "train-1382",
+        "sample_id": "extrapolate:arithmetic__add_or_sub_big:46:e316ca3f"
+      },
+      {
+        "episode_id": "train-1383",
+        "sample_id": "extrapolate:numbers__place_value_big:9:6ebdff6b"
+      },
+      {
+        "episode_id": "train-1384",
+        "sample_id": "extrapolate:arithmetic__mixed_longer:33:eac47ab0"
+      },
+      {
+        "episode_id": "train-1385",
+        "sample_id": "extrapolate:probability__swr_p_sequence_more_samples:31:1b01e7d5"
+      },
+      {
+        "episode_id": "train-1386",
+        "sample_id": "extrapolate:comparison__closest_more:4:c93b6cfa"
+      },
+      {
+        "episode_id": "train-1387",
+        "sample_id": "extrapolate:arithmetic__add_or_sub_big:3:938838f1"
+      },
+      {
+        "episode_id": "train-1388",
+        "sample_id": "extrapolate:arithmetic__add_sub_multiple_longer:33:f9b6a0df"
+      },
+      {
+        "episode_id": "train-1389",
+        "sample_id": "extrapolate:probability__swr_p_level_set_more_samples:53:0bd337ec"
+      },
+      {
+        "episode_id": "train-1390",
+        "sample_id": "extrapolate:numbers__round_number_big:27:56875151"
+      },
+      {
+        "episode_id": "train-1391",
+        "sample_id": "extrapolate:comparison__kth_biggest_more:0:fd355c4a"
+      },
+      {
+        "episode_id": "train-1392",
+        "sample_id": "extrapolate:arithmetic__add_sub_multiple_longer:35:a16d843e"
+      },
+      {
+        "episode_id": "train-1393",
+        "sample_id": "extrapolate:comparison__kth_biggest_more:4:3bae4747"
+      },
+      {
+        "episode_id": "train-1394",
+        "sample_id": "extrapolate:probability__swr_p_level_set_more_samples:11:3983b04a"
+      },
+      {
+        "episode_id": "train-1395",
+        "sample_id": "extrapolate:numbers__place_value_big:50:f6821327"
+      },
+      {
+        "episode_id": "train-1396",
+        "sample_id": "extrapolate:arithmetic__add_sub_multiple_longer:3:5f8d7220"
+      },
+      {
+        "episode_id": "train-1397",
+        "sample_id": "extrapolate:numbers__place_value_big:11:17de0490"
+      },
+      {
+        "episode_id": "train-1398",
+        "sample_id": "extrapolate:numbers__place_value_big:21:be8741de"
+      },
+      {
+        "episode_id": "train-1399",
+        "sample_id": "extrapolate:probability__swr_p_level_set_more_samples:32:064c5b29"
+      },
+      {
+        "episode_id": "train-1400",
+        "sample_id": "extrapolate:arithmetic__mul_div_multiple_longer:57:a6fb8024"
+      },
+      {
+        "episode_id": "train-1401",
+        "sample_id": "extrapolate:comparison__kth_biggest_more:29:936efd27"
+      },
+      {
+        "episode_id": "train-1402",
+        "sample_id": "extrapolate:probability__swr_p_level_set_more_samples:23:5e944ffb"
+      }
+    ]
+  }
+}

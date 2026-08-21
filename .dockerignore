@@ -1,0 +1,12 @@
+data/
+work/
+tests/
+docs/
+baselines/
+!baselines/feature_budget.py
+!baselines/hash_regex.py
+!baselines/hash-regex-public.v1.json
+results/
+*.out
+**/__pycache__/
+.git/

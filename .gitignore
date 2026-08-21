@@ -1,0 +1,40 @@
+# SPDX-FileCopyrightText: Copyright 2026 SK TELECOM CO., LTD.
+# SPDX-License-Identifier: Apache-2.0
+
+.DS_Store
+.env
+.env.*
+!.env.example
+/.local-data/
+/operator-state/
+*.egg-info/
+*.key
+*.pem
+*.py[cod]
+.coverage
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.venv/
+/.venv-data/
+__pycache__/
+build/
+/data/cache/
+/data/materialized/
+dist/
+
+# 개인 설정/보조 파일은 커밋 제외
+CLAUDE.md
+**/CLAUDE.md
+.claude/
+.cursor/
+*.log
+# 제출 저장소에는 넣지 않는 개인 문서/보조 파일 (결과보고서는 대회 사이트에 업로드)
+ROUTER_REPORT.md
+SUBMISSION_GUIDE.md
+/data/dev/outcomes_filtered.json
+report_assets/
+
+# 실험 스크래치와 재생성 가능한 학습 중간 산출물
+/work/
+/scripts/featurizer_v1.npz

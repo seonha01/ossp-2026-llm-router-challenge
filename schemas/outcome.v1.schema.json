@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "decimalScore": {
+      "maxLength": 32,
+      "pattern": "^(0(\\.[0-9]{1,30})?|1(\\.0{1,30})?)(?![\\s\\S])",
+      "type": "string"
+    },
+    "modelOutcome": {
+      "additionalProperties": false,
+      "properties": {
+        "input_tokens": {
+          "minimum": 1,
+          "type": "integer"
+        },
+        "num_generations": {
+          "minimum": 1,
+          "type": "integer"
+        },
+        "output_tokens": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "score": {
+          "$ref": "#/$defs/decimalScore"
+        }
+      },
+      "required": [
+        "score",
+        "num_generations",
+        "input_tokens",
+        "output_tokens"
+      ],
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "challenge_id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "episodes": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "episode_id": {
+            "maxLength": 128,
+            "minLength": 1,
+            "type": "string"
+          },
+          "models": {
+            "additionalProperties": false,
+            "properties": {
+              "ax31": {
+                "$ref": "#/$defs/modelOutcome"
+              },
+              "ax31-light": {
+                "$ref": "#/$defs/modelOutcome"
+              },
+              "axk1-think": {
+                "$ref": "#/$defs/modelOutcome"
+              }
+            },
+            "required": [
+              "ax31-light",
+              "ax31",
+              "axk1-think"
+            ],
+            "type": "object"
+          }
+        },
+        "required": [
+          "episode_id",
+          "models"
+        ],
+        "type": "object"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "schema_version": {
+      "const": 1
+    },
+    "split": {
+      "minLength": 1,
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "challenge_id",
+    "split",
+    "episodes"
+  ],
+  "title": "OSSP 2026 content-free outcomes v1",
+  "type": "object"
+}
