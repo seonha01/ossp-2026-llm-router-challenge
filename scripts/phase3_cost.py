@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-FileCopyrightText: Copyright 2026 seon_ha_01
 # SPDX-License-Identifier: Apache-2.0
 """Phase 3: per-model cost models.
 

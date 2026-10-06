@@ -1,11 +1,32 @@
 <!--
 SPDX-FileCopyrightText: Copyright 2026 SK TELECOM CO., LTD.
+SPDX-FileCopyrightText: Copyright 2026 seon_ha_01
 SPDX-License-Identifier: Apache-2.0
 -->
 
 # 기반 이미지 기록
 
-제공하는 기준 컨테이너 예시는 Docker Official Image인
+## 제출 라우터 이미지 (container/Dockerfile)
+
+제출한 라우터 이미지는 Docker Official Image인 `python:3.11-slim-bookworm`
+(Debian bookworm)을 기반으로 합니다.
+
+- 플랫폼: `linux/arm64`
+- 추가 설치 패키지: `numpy 1.26.4` (BSD-3-Clause) 단독. 학습 전용
+  라이브러리(scikit-learn, scipy)는 이미지에 포함하지 않습니다.
+- 빌드 후 `pip`, `setuptools`, `wheel`은 이미지에서 제거합니다.
+- 제출 이미지 다이제스트:
+  `ghcr.io/seonha01/ossp-router@sha256:f53dd989ff91e77400b17cbc6d38148e329e441d490562734f4604bcc629b3d8`
+  (기반 태그는 빌드 시점의 `python:3.11-slim-bookworm`이며, 최종 산출물은
+  위 다이제스트로 고정되어 있습니다)
+
+이 저장소의 Apache-2.0 라이선스는 기반 이미지 안의 Python, Debian 패키지를
+재라이선스하지 않습니다. 각 구성 요소의 저작권·라이선스 고지는 이미지 안의
+패키지 메타데이터를 따릅니다.
+
+## 기준 예시·측정 이미지 (container/measurement.Dockerfile)
+
+대회가 제공하는 기준 컨테이너 예시와 측정 이미지는 Docker Official Image인
 `python:3.11.15-alpine3.23`을 사용합니다.
 
 - 다중 플랫폼 인덱스 다이제스트:

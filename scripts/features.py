@@ -1,3 +1,4 @@
+# SPDX-FileCopyrightText: Copyright 2026 seon_ha_01
 # SPDX-License-Identifier: Apache-2.0
 """Phase 1: deterministic prompt featurizer.
 
