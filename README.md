@@ -5,6 +5,8 @@ SPDX-License-Identifier: Apache-2.0
 
 # Efficient LLM Routing Challenge
 
+[![시연 영상](https://img.youtube.com/vi/ftQNM1NlzQA/hqdefault.jpg)](https://www.youtube.com/watch?v=ftQNM1NlzQA)
+
 프롬프트만 보고 세 후보 모델(`ax31-light`, `ax31`, `axk1-think`) 중 하나를 골라,
 정해진 예산 안에서 답변 품질을 최대한 끌어올리는 라우터입니다. 모델을 직접
 호출하지는 않고, 각 모델이 미리 만들어 둔 답 중 하나를 선택하는 방식입니다.
