@@ -41,7 +41,6 @@ SPDX-License-Identifier = "Apache-2.0 AND BSD-3-Clause AND CC-BY-SA-4.0 AND MIT"
 [[annotations]]
 path = [
   "DEVELOPING.md",
-  "README.md",
   "container/BASE_IMAGE.md",
   "container/README.md",
   "data/sources/README.md",
@@ -57,4 +56,10 @@ path = [
 ]
 precedence = "override"
 SPDX-FileCopyrightText = "Copyright 2026 SK TELECOM CO., LTD."
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = "README.md"
+precedence = "override"
+SPDX-FileCopyrightText = "Copyright 2026 seon_ha_01"
 SPDX-License-Identifier = "Apache-2.0"

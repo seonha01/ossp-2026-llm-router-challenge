@@ -1,3 +1,4 @@
+# SPDX-FileCopyrightText: Copyright 2026 seon_ha_01
 # SPDX-License-Identifier: Apache-2.0
 """Prompt feature extraction for the runtime router.
 

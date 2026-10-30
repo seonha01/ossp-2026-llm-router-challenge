@@ -1,3 +1,8 @@
+<!--
+SPDX-FileCopyrightText: Copyright 2026 seon_ha_01
+SPDX-License-Identifier: Apache-2.0
+-->
+
 # Efficient LLM Routing Challenge
 
 프롬프트만 보고 세 후보 모델(`ax31-light`, `ax31`, `axk1-think`) 중 하나를 골라,
@@ -5,7 +10,8 @@
 호출하지는 않고, 각 모델이 미리 만들어 둔 답 중 하나를 선택하는 방식입니다.
 
 세 등급(fast, balanced, premium)마다 예산 한도가 있고, 한 등급이 한도를 넘으면
-그 등급은 0점이 됩니다.
+그 등급은 0점이 됩니다. 최종 점수는 등급 점수의 가중 평균으로, 가중치는
+fast 0.4, balanced 0.3, premium 0.3입니다.
 
 ## 이 라우터가 하는 일
 
